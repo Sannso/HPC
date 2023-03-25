@@ -1,0 +1,4 @@
+n: 100000
+nsteps: 1000
+threads: 2
+Elapsed time: 0.741627 s

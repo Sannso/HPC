@@ -1,0 +1,4 @@
+n: 100000
+nsteps: 1000
+processes: 8
+Elapsed time: 0.001586 s
