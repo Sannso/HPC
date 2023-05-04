@@ -9,5 +9,5 @@ ulimit -s unlimited -c unlimited
 N=100000
 NSTEPS=1000
 
-    ./jacobi1d $N $NSTEPS u_serial.out > timing_serial.out
+    ./jacobi-omp $N $NSTEPS u_serial.out > timing_serial.out
 
