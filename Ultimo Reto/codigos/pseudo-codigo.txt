@@ -1,0 +1,14 @@
+funcion actualizarCarretera(carretera, N):
+    nuevoCarretera = arreglo de longitud N
+    
+    Para cada celda i en carretera:
+        izquierda = carretera[(i-1) % N]
+        actual = carretera[i]
+        derecha = carretera[(i+1) % N]
+        
+        Si derecha == 0 y actual == 1:
+            nuevoCarretera[i] = 1
+        De lo contrario:
+            nuevoCarretera[i] = 0
+    
+    Devolver nuevoCarretera
