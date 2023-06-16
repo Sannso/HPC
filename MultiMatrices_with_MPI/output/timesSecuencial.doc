@@ -3118,3 +3118,1823 @@ mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 1
 --------------------------------------------------------------------------
 mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
 --------------------------------------------------------------------------
+Tiempo transcurrido: 0.000113 segundos
+Tiempo transcurrido: 0.005851 segundos
+[san-gnu:23664] *** Process received signal ***
+[san-gnu:23664] Signal: Segmentation fault (11)
+[san-gnu:23664] Signal code: Address not mapped (1)
+[san-gnu:23664] Failing at address: 0x559adac5a020
+[san-gnu:23665] *** Process received signal ***
+[san-gnu:23665] Signal: Segmentation fault (11)
+[san-gnu:23665] Signal code: Address not mapped (1)
+[san-gnu:23665] Failing at address: 0x562e93d96020
+[san-gnu:23666] *** Process received signal ***
+[san-gnu:23664] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1951770040]
+[san-gnu:23664] [ 1] ./secuencialMPI(+0xd3a)[0x559ad8b04d3a]
+[san-gnu:23664] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1951752bf7]
+[san-gnu:23664] [ 3] ./secuencialMPI(+0xa9a)[0x559ad8b04a9a]
+[san-gnu:23664] *** End of error message ***
+[san-gnu:23665] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7faa8361f040]
+[san-gnu:23665] [ 1] ./secuencialMPI(+0xd3a)[0x562e9239ad3a]
+[san-gnu:23665] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7faa83601bf7]
+[san-gnu:23665] [ 3] ./secuencialMPI(+0xa9a)[0x562e9239aa9a]
+[san-gnu:23665] *** End of error message ***
+[san-gnu:23666] Signal: Segmentation fault (11)
+[san-gnu:23666] Signal code: Address not mapped (1)
+[san-gnu:23666] Failing at address: 0x55acc862a020
+[san-gnu:23666] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fef9c0be040]
+[san-gnu:23666] [ 1] ./secuencialMPI(+0xd3a)[0x55acc7d6ed3a]
+[san-gnu:23666] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fef9c0a0bf7]
+[san-gnu:23666] [ 3] ./secuencialMPI(+0xa9a)[0x55acc7d6ea9a]
+[san-gnu:23666] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23698] *** Process received signal ***
+[san-gnu:23699] *** Process received signal ***
+[san-gnu:23699] Signal: Segmentation fault (11)
+[san-gnu:23699] Signal code: Invalid permissions (2)
+[san-gnu:23699] Failing at address: 0x7f43bc1e6550
+[san-gnu:23700] *** Process received signal ***
+[san-gnu:23700] Signal: Segmentation fault (11)
+[san-gnu:23700] Signal code: Invalid permissions (2)
+[san-gnu:23700] Failing at address: 0x7f23482060d0
+[san-gnu:23702] *** Process received signal ***
+[san-gnu:23702] Signal: Segmentation fault (11)
+[san-gnu:23702] Signal code: Invalid permissions (2)
+[san-gnu:23702] Failing at address: 0x7fb2200c8250
+[san-gnu:23699] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f43c27a6040]
+[san-gnu:23699] [ 1] ./secuencialMPI(+0xd3a)[0x555bcfd44d3a]
+[san-gnu:23699] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f43c2788bf7]
+[san-gnu:23699] [ 3] ./secuencialMPI(+0xa9a)[0x555bcfd44a9a]
+[san-gnu:23699] *** End of error message ***
+[san-gnu:23700] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f234c42a040]
+[san-gnu:23700] [ 1] ./secuencialMPI(+0xd3a)[0x5559fe9ecd3a]
+[san-gnu:23700] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f234c40cbf7]
+[san-gnu:23700] [ 3] ./secuencialMPI(+0xa9a)[0x5559fe9eca9a]
+[san-gnu:23700] *** End of error message ***
+[san-gnu:23702] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fb22689e040]
+[san-gnu:23702] [ 1] ./secuencialMPI(+0xd3a)[0x562c8c8fad3a]
+[san-gnu:23702] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb226880bf7]
+[san-gnu:23702] [ 3] ./secuencialMPI(+0xa9a)[0x562c8c8faa9a]
+[san-gnu:23702] *** End of error message ***
+[san-gnu:23698] Signal: Segmentation fault (11)
+[san-gnu:23698] Signal code: Invalid permissions (2)
+[san-gnu:23698] Failing at address: 0x7fd0c006c250
+[san-gnu:23698] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd0c6842040]
+[san-gnu:23698] [ 1] ./secuencialMPI(+0xd3a)[0x55df64d2dd3a]
+[san-gnu:23698] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd0c6824bf7]
+[san-gnu:23698] [ 3] ./secuencialMPI(+0xa9a)[0x55df64d2da9a]
+[san-gnu:23698] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23721] *** Process received signal ***
+[san-gnu:23721] Signal: Segmentation fault (11)
+[san-gnu:23721] Signal code: Invalid permissions (2)
+[san-gnu:23721] Failing at address: 0x7f5a4c0d6950
+[san-gnu:23719] *** Process received signal ***
+[san-gnu:23719] Signal: Segmentation fault (11)
+[san-gnu:23719] Signal code: Invalid permissions (2)
+[san-gnu:23719] Failing at address: 0x7f029017b930
+[san-gnu:23721] [ 0] [san-gnu:23722] *** Process received signal ***
+[san-gnu:23719] [ 0] /lib/x86_64-linux-gnu/libc.so.6[san-gnu:23722] Signal: Segmentation fault (11)
+[san-gnu:23722] Signal code: Invalid permissions (2)
+[san-gnu:23722] Failing at address: 0x7fd8600d4210
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f5a57894040]
+[san-gnu:23721] [ 1] ./secuencialMPI(+0xd3a)[0x56100858ad3a]
+[san-gnu:23721] [ 2] [san-gnu:23722] [ 0] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f5a57876bf7]
+[san-gnu:23721] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[ 3] ./secuencialMPI(+0xa9a)[0x56100858aa9a]
+[san-gnu:23721] *** End of error message ***
+[0x7fd8640f5040]
+[san-gnu:23722] [ 1] ./secuencialMPI(+0xd3a)[0x(+0x3f040)[0x7f029439f040]
+[san-gnu:23719] [ 1] ./secuencialMPI(+0xd3a)[0x5636fcefbd3a]
+[san-gnu:23719] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f0294381bf7]
+[san-gnu:23719] [ 3] ./secuencialMPI(+0xa9a)[0x5636fcefba9a]
+[san-gnu:23719] *** End of error message ***
+5654aef3bd3a]
+[san-gnu:23722] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd8640d7bf7]
+[san-gnu:23722] [ 3] ./secuencialMPI(+0xa9a)[0x5654aef3ba9a]
+[san-gnu:23722] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23749] *** Process received signal ***
+[san-gnu:23749] Signal: Segmentation fault (11)
+[san-gnu:23749] Signal code: Invalid permissions (2)
+[san-gnu:23749] Failing at address: 0x7f181c146690
+[san-gnu:23749] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1820167040]
+[san-gnu:23749] [ 1] ./secuencialMPI(+0xd3a)[0x55fcd26e1d3a]
+[san-gnu:23749] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1820149bf7]
+[san-gnu:23749] [ 3] ./secuencialMPI(+0xa9a)[0x55fcd26e1a9a]
+[san-gnu:23749] *** End of error message ***
+[san-gnu:23750] *** Process received signal ***
+[san-gnu:23750] Signal: Segmentation fault (11)
+[san-gnu:23750] Signal code: Invalid permissions (2)
+[san-gnu:23750] Failing at address: 0x7f4d4134f290
+[san-gnu:23750] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f4d52f1e040]
+[san-gnu:23750] [ 1] ./secuencialMPI(+0xd3a)[0x55d00dac3d3a]
+[san-gnu:23750] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4d52f00bf7]
+[san-gnu:23750] [ 3] ./secuencialMPI(+0xa9a)[0x55d00dac3a9a]
+[san-gnu:23750] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23768] *** Process received signal ***
+[san-gnu:23768] Signal: Segmentation fault (11)
+[san-gnu:23768] Signal code: Invalid permissions (2)
+[san-gnu:23768] Failing at address: 0x7f2d189610d0
+[san-gnu:23769] *** Process received signal ***
+[san-gnu:23769] Signal: Segmentation fault (11)
+[san-gnu:23769] Signal code: Invalid permissions (2)
+[san-gnu:23769] Failing at address: 0x7f280c1ec3d0
+[san-gnu:23770] *** Process received signal ***
+[san-gnu:23770] Signal: Segmentation fault (11)
+[san-gnu:23770] Signal code: Invalid permissions (2)
+[san-gnu:23770] Failing at address: 0x7fd0cb9e50d0
+[san-gnu:23768] [ 0] /lib/x86_64-linux-gnu/libc.so.6([san-gnu:23769] [ 0] [san-gnu:23770] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd0dd5d4040]
+[san-gnu:23770] [ 1] ./secuencialMPI(+0xd3a)[0x+0x3f040)5643b9752d3a]
+[san-gnu:23770] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd0dd5b6bf7]
+[san-gnu:23770] [ 3] [0x7f2d265a8040]
+./secuencialMPI(+0xa9a)[0x5643b9752a9a]
+[san-gnu:23768] [ 1] [san-gnu:23770] *** End of error message ***
+./secuencialMPI(+0xd3a)[0x56379329ad3a]
+[san-gnu:23768] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2d2658abf7]
+[san-gnu:23768] [ 3] ./secuencialMPI(+0xa9a)[0x56379329aa9a]
+[san-gnu:23768] *** End of error message ***
+[san-gnu:23771] *** Process received signal ***
+[san-gnu:23771] Signal: Segmentation fault (11)
+[san-gnu:23771] Signal code: Invalid permissions (2)
+[san-gnu:23771] Failing at address: 0x7f96eab9a2b0
+[san-gnu:23771] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f96fc730040]
+[san-gnu:23771] [ 1] ./secuencialMPI(+0xd3a)[0x556d6e731d3a]
+[san-gnu:23771] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f96fc712bf7]
+[san-gnu:23771] [ 3] ./secuencialMPI(+0xa9a)[0x556d6e731a9a]
+[san-gnu:23771] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f280f3fd040]
+[san-gnu:23769] [ 1] ./secuencialMPI(+0xd3a)[0x55cc3ae7fd3a]
+[san-gnu:23769] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f280f3dfbf7]
+[san-gnu:23769] [ 3] ./secuencialMPI(+0xa9a)[0x55cc3ae7fa9a]
+[san-gnu:23769] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23789] *** Process received signal ***
+[san-gnu:23789] Signal: Segmentation fault (11)
+[san-gnu:23789] Signal code: Invalid permissions (2)
+[san-gnu:23789] Failing at address: 0x7f1462a92f10
+[san-gnu:23789] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f147f674040]
+[san-gnu:23789] [ 1] ./secuencialMPI(+0xd3a)[0x557e43603d3a]
+[san-gnu:23789] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f147f656bf7]
+[san-gnu:23789] [ 3] ./secuencialMPI(+0xa9a)[0x557e43603a9a]
+[san-gnu:23789] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Tiempo transcurrido: 0.000167 segundos
+Tiempo transcurrido: 0.004593 segundos
+[san-gnu:23873] *** Process received signal ***
+[san-gnu:23873] Signal: Segmentation fault (11)
+[san-gnu:23873] Signal code: Address not mapped (1)
+[san-gnu:23873] Failing at address: 0x55f3c0668150
+[san-gnu:23874] *** Process received signal ***
+[san-gnu:23874] Signal: Segmentation fault (11)
+[san-gnu:23874] Signal code: Address not mapped (1)
+[san-gnu:23874] Failing at address: 0x563100b14170
+[san-gnu:23875] *** Process received signal ***
+[san-gnu:23876] *** Process received signal ***
+[san-gnu:23876] Signal: Segmentation fault (11)
+[san-gnu:23876] Signal code: Address not mapped (1)
+[san-gnu:23876] Failing at address: 0x562e754d0020
+[san-gnu:23873] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7faa79653040]
+[san-gnu:23873] [ 1] ./secuencialMPI(+0xd3a)[0x55f3bf1d2d3a]
+[san-gnu:23873] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7faa79635bf7]
+[san-gnu:23873] [ 3] ./secuencialMPI(+0xa9a)[0x55f3bf1d2a9a]
+[san-gnu:23873] *** End of error message ***
+[san-gnu:23874] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f98fbe69040]
+[san-gnu:23874] [ 1] ./secuencialMPI(+0xd3a)[0x563100377d3a]
+[san-gnu:23874] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f98fbe4bbf7]
+[san-gnu:23874] [ 3] ./secuencialMPI(+0xa9a)[0x563100377a9a]
+[san-gnu:23874] *** End of error message ***
+[san-gnu:23876] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f62496d4040]
+[san-gnu:23876] [ 1] ./secuencialMPI(+0xd3a)[0x562e745f0d3a]
+[san-gnu:23876] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f62496b6bf7]
+[san-gnu:23876] [ 3] ./secuencialMPI(+0xa9a)[0x562e745f0a9a]
+[san-gnu:23876] *** End of error message ***
+[san-gnu:23875] Signal: Segmentation fault (11)
+[san-gnu:23875] Signal code: Address not mapped (1)
+[san-gnu:23875] Failing at address: 0x55655f09c170
+[san-gnu:23875] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fda80baa040]
+[san-gnu:23875] [ 1] ./secuencialMPI(+0xd3a)[0x55655e7fbd3a]
+[san-gnu:23875] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fda80b8cbf7]
+[san-gnu:23875] [ 3] ./secuencialMPI(+0xa9a)[0x55655e7fba9a]
+[san-gnu:23875] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23894] *** Process received signal ***
+[san-gnu:23894] Signal: Segmentation fault (11)
+[san-gnu:23894] Signal code: Invalid permissions (2)
+[san-gnu:23894] Failing at address: 0x7f7c301c8310
+[san-gnu:23895] *** Process received signal ***
+[san-gnu:23895] Signal: Segmentation fault (11)
+[san-gnu:23895] Signal code: Invalid permissions (2)
+[san-gnu:23895] Failing at address: 0x7fa4e0101390
+[san-gnu:23896] *** Process received signal ***
+[san-gnu:23896] Signal: Segmentation fault (11)
+[san-gnu:23896] Signal code: Invalid permissions (2)
+[san-gnu:23896] Failing at address: 0x7f3a2cb665d0
+[san-gnu:23897] *** Process received signal ***
+[san-gnu:23894] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f7c35b5a040]
+[san-gnu:23894] [ 1] ./secuencialMPI(+0xd3a)[0x56426d757d3a]
+[san-gnu:23894] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7c35b3cbf7]
+[san-gnu:23894] [ 3] ./secuencialMPI(+0xa9a)[0x56426d757a9a]
+[san-gnu:23894] *** End of error message ***
+[san-gnu:23895] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa4e3f17040]
+[san-gnu:23895] [ 1] ./secuencialMPI(+0xd3a)[0x559fa1e2cd3a]
+[san-gnu:23895] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa4e3ef9bf7]
+[san-gnu:23895] [ 3] ./secuencialMPI(+0xa9a)[0x559fa1e2ca9a]
+[san-gnu:23895] *** End of error message ***
+[san-gnu:23896] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3a3a5d1040]
+[san-gnu:23896] [ 1] ./secuencialMPI(+0xd3a)[0x558a8e39cd3a]
+[san-gnu:23896] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3a3a5b3bf7]
+[san-gnu:23896] [ 3] ./secuencialMPI(+0xa9a)[0x558a8e39ca9a]
+[san-gnu:23896] *** End of error message ***
+[san-gnu:23897] Signal: Segmentation fault (11)
+[san-gnu:23897] Signal code: Invalid permissions (2)
+[san-gnu:23897] Failing at address: 0x7fd6e80de310
+[san-gnu:23897] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd6ec0ff040]
+[san-gnu:23897] [ 1] ./secuencialMPI(+0xd3a)[0x55f9ec440d3a]
+[san-gnu:23897] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd6ec0e1bf7]
+[san-gnu:23897] [ 3] ./secuencialMPI(+0xa9a)[0x55f9ec440a9a]
+[san-gnu:23897] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23916] *** Process received signal ***
+[san-gnu:23916] Signal: Segmentation fault (11)
+[san-gnu:23916] Signal code: Invalid permissions (2)
+[san-gnu:23916] Failing at address: 0x7f02a01974d0
+[san-gnu:23917] *** Process received signal ***
+[san-gnu:23917] Signal: Segmentation fault (11)
+[san-gnu:23917] Signal code: Invalid permissions (2)
+[san-gnu:23917] Failing at address: 0x7f3da4d7c4d0
+[san-gnu:23917] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3db2812040]
+[san-gnu:23917] [ 1] ./secuencialMPI(+0xd3a)[0x564a05e9fd3a]
+[san-gnu:23917] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3db27f4bf7]
+[san-gnu:23917] [ 3] ./secuencialMPI(+0xa9a)[0x564a05e9fa9a]
+[san-gnu:23917] *** End of error message ***
+[san-gnu:23916] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f02acdeb040]
+[san-gnu:23916] [ 1] ./secuencialMPI(+0xd3a)[0x55945f2c5d3a]
+[san-gnu:23916] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f02acdcdbf7]
+[san-gnu:23916] [ 3] ./secuencialMPI(+0xa9a)[0x55945f2c5a9a]
+[san-gnu:23916] *** End of error message ***
+[san-gnu:23918] *** Process received signal ***
+[san-gnu:23918] Signal: Segmentation fault (11)
+[san-gnu:23918] Signal code: Invalid permissions (2)
+[san-gnu:23918] Failing at address: 0x7f4d489614d0
+[san-gnu:23918] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f4d56401040]
+[san-gnu:23918] [ 1] ./secuencialMPI(+0xd3a)[0x556704861d3a]
+[san-gnu:23918] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4d563e3bf7]
+[san-gnu:23918] [ 3] ./secuencialMPI(+0xa9a)[0x556704861a9a]
+[san-gnu:23918] *** End of error message ***
+[san-gnu:23915] *** Process received signal ***
+[san-gnu:23915] Signal: Segmentation fault (11)
+[san-gnu:23915] Signal code: Invalid permissions (2)
+[san-gnu:23915] Failing at address: 0x7f2ed2b9a690
+[san-gnu:23915] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2ee46df040]
+[san-gnu:23915] [ 1] ./secuencialMPI(+0xd3a)[0x556aacaa0d3a]
+[san-gnu:23915] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2ee46c1bf7]
+[san-gnu:23915] [ 3] ./secuencialMPI(+0xa9a)[0x556aacaa0a9a]
+[san-gnu:23915] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23936] *** Process received signal ***
+[san-gnu:23938] *** Process received signal ***
+[san-gnu:23938] Signal: Segmentation fault (11)
+[san-gnu:23938] Signal code: Invalid permissions (2)
+[san-gnu:23938] Failing at address: 0x7f5434f9c310
+[san-gnu:23939] *** Process received signal ***
+[san-gnu:23939] Signal: Segmentation fault (11)
+[san-gnu:23939] Signal code: Invalid permissions (2)
+[san-gnu:23939] Failing at address: 0x7f03ed9b6310
+[san-gnu:23938] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f5446a46040]
+[san-gnu:23938] [ 1] ./secuencialMPI(+0xd3a)[0x56286a909d3a]
+[san-gnu:23938] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f5446a28bf7]
+[san-gnu:23938] [ 3] ./secuencialMPI(+0xa9a)[0x56286a909a9a]
+[san-gnu:23938] *** End of error message ***
+[san-gnu:23939] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f03fb450040]
+[san-gnu:23939] [ 1] ./secuencialMPI(+0xd3a)[0x5618f1e5ad3a]
+[san-gnu:23939] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f03fb432bf7]
+[san-gnu:23939] [ 3] ./secuencialMPI(+0xa9a)[0x5618f1e5aa9a]
+[san-gnu:23939] *** End of error message ***
+[san-gnu:23936] Signal: Segmentation fault (11)
+[san-gnu:23936] Signal code: Invalid permissions (2)
+[san-gnu:23936] Failing at address: 0x7f90841eb310
+[san-gnu:23936] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f9088835040]
+[san-gnu:23936] [ 1] ./secuencialMPI(+0xd3a)[0x555db339ad3a]
+[san-gnu:23936] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9088817bf7]
+[san-gnu:23936] [ 3] ./secuencialMPI(+0xa9a)[0x555db339aa9a]
+[san-gnu:23936] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23957] *** Process received signal ***
+[san-gnu:23957] Signal: Segmentation fault (11)
+[san-gnu:23957] Signal code: Invalid permissions (2)
+[san-gnu:23957] Failing at address: 0x7f43bb9e50d0
+[san-gnu:23959] *** Process received signal ***
+[san-gnu:23959] Signal: Segmentation fault (11)
+[san-gnu:23959] Signal code: Invalid permissions (2)
+[san-gnu:23959] Failing at address: 0x7f1e9f3d80d0
+[san-gnu:23957] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f43cd58f040]
+[san-gnu:23957] [ 1] ./secuencialMPI(+0xd3a)[0x56330368bd3a]
+[san-gnu:23959] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040[san-gnu:23957] [ 2] )[0x7f1eb101a040]
+[san-gnu:23959] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f43cd571bf7]
+[san-gnu:23957] [ 3] ./secuencialMPI[ 1] ./secuencialMPI(+0xd3a)[0x5565dce70d3a]
+[san-gnu:23959] (+0xa9a[ 2] )[0x56330368ba9a]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1eb0ffcbf7]
+[san-gnu:23959] [ 3] ./secuencialMPI(+0xa9a)[san-gnu:23957] *** End of error message ***
+[0x5565dce70a9a]
+[san-gnu:23959] *** End of error message ***
+[san-gnu:23956] *** Process received signal ***
+[san-gnu:23956] Signal: Segmentation fault (11)
+[san-gnu:23956] Signal code: Invalid permissions (2)
+[san-gnu:23956] Failing at address: 0x7f064839a290
+[san-gnu:23956] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f064cfbc040]
+[san-gnu:23956] [ 1] ./secuencialMPI(+0xd3a)[0x55adc9bf9d3a]
+[san-gnu:23956] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f064cf9ebf7]
+[san-gnu:23956] [ 3] ./secuencialMPI(+0xa9a)[0x55adc9bf9a9a]
+[san-gnu:23956] *** End of error message ***
+[san-gnu:23958] *** Process received signal ***
+[san-gnu:23958] Signal: Segmentation fault (11)
+[san-gnu:23958] Signal code: Invalid permissions (2)
+[san-gnu:23958] Failing at address: 0x7fe6dc14e070
+[san-gnu:23958] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe6e9760040]
+[san-gnu:23958] [ 1] ./secuencialMPI(+0xd3a)[0x5564745aed3a]
+[san-gnu:23958] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe6e9742bf7]
+[san-gnu:23958] [ 3] ./secuencialMPI(+0xa9a)[0x5564745aea9a]
+[san-gnu:23958] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:23977] *** Process received signal ***
+[san-gnu:23977] Signal: Segmentation fault (11)
+[san-gnu:23977] Signal code: Invalid permissions (2)
+[san-gnu:23977] Failing at address: 0x7fade0187f10
+[san-gnu:23977] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fadfcd8e040]
+[san-gnu:23977] [ 1] ./secuencialMPI(+0xd3a)[0x56120aec4d3a]
+[san-gnu:23977] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fadfcd70bf7]
+[san-gnu:23977] [ 3] ./secuencialMPI(+0xa9a)[0x56120aec4a9a]
+[san-gnu:23977] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Tiempo transcurrido: 0.000111 segundos
+Tiempo transcurrido: 0.003840 segundos
+[san-gnu:24033] *** Process received signal ***
+[san-gnu:24033] Signal: Segmentation fault (11)
+[san-gnu:24033] Signal code: Address not mapped (1)
+[san-gnu:24033] Failing at address: 0x55add4471020
+[san-gnu:24034] *** Process received signal ***
+[san-gnu:24034] Signal: Segmentation fault (11)
+[san-gnu:24034] Signal code: Address not mapped (1)
+[san-gnu:24034] Failing at address: 0x562da06a0020
+[san-gnu:24035] *** Process received signal ***
+[san-gnu:24035] Signal: Segmentation fault (11)
+[san-gnu:24035] Signal code: Address not mapped (1)
+[san-gnu:24035] Failing at address: 0x55cab9d83020
+[san-gnu:24033] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe3f2e5f040]
+[san-gnu:24033] [ 1] ./secuencialMPI(+0xd3a)[0x55add2420d3a]
+[san-gnu:24033] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe3f2e41bf7]
+[san-gnu:24033] [ 3] ./secuencialMPI(+0xa9a)[0x55add2420a9a]
+[san-gnu:24033] *** End of error message ***
+[san-gnu:24035] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7faa034ea040]
+[san-gnu:24035] [ 1] ./secuencialMPI(+0xd3a)[0x55cab9759d3a]
+[san-gnu:24035] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7faa034ccbf7]
+[san-gnu:24035] [ 3] ./secuencialMPI(+0xa9a)[0x55cab9759a9a]
+[san-gnu:24035] *** End of error message ***
+[san-gnu:24034] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f4c4ee86040]
+[san-gnu:24034] [ 1] ./secuencialMPI(+0xd3a)[0x562d9fc37d3a]
+[san-gnu:24034] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4c4ee68bf7]
+[san-gnu:24034] [ 3] ./secuencialMPI(+0xa9a)[0x562d9fc37a9a]
+[san-gnu:24034] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24055] *** Process received signal ***
+[san-gnu:24055] Signal: Segmentation fault (11)
+[san-gnu:24055] Signal code: Invalid permissions (2)
+[san-gnu:24055] Failing at address: 0x7f33401b0310
+[san-gnu:24055] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f33441d1040]
+[san-gnu:24055] [ 1] ./secuencialMPI(+0xd3a)[0x5616b202dd3a]
+[san-gnu:24055] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f33441b3bf7]
+[san-gnu:24055] [ 3] ./secuencialMPI(+0xa9a)[0x5616b202da9a]
+[san-gnu:24055] *** End of error message ***
+[san-gnu:24053] *** Process received signal ***
+[san-gnu:24053] Signal: Segmentation fault (11)
+[san-gnu:24053] Signal code: Invalid permissions (2)
+[san-gnu:24053] Failing at address: 0x7fdfe4103250
+[san-gnu:24053] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fdfe9c98040]
+[san-gnu:24053] [ 1] ./secuencialMPI(+0xd3a)[0x55b0853b8d3a]
+[san-gnu:24053] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fdfe9c7abf7]
+[san-gnu:24053] [ 3] ./secuencialMPI(+0xa9a)[0x55b0853b8a9a]
+[san-gnu:24053] *** End of error message ***
+[san-gnu:24052] *** Process received signal ***
+[san-gnu:24052] Signal: Segmentation fault (11)
+[san-gnu:24052] Signal code: Invalid permissions (2)
+[san-gnu:24052] Failing at address: 0x7f154016a250
+[san-gnu:24052] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1546940040]
+[san-gnu:24052] [ 1] ./secuencialMPI(+0xd3a)[0x55a0c686bd3a]
+[san-gnu:24052] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1546922bf7]
+[san-gnu:24052] [ 3] ./secuencialMPI(+0xa9a)[0x55a0c686ba9a]
+[san-gnu:24052] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24074] *** Process received signal ***
+[san-gnu:24074] Signal: Segmentation fault (11)
+[san-gnu:24074] Signal code: Invalid permissions (2)
+[san-gnu:24074] Failing at address: 0x7fb2280cb310
+[san-gnu:24074] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fb234040040]
+[san-gnu:24074] [ 1] ./secuencialMPI(+0xd3a)[0x56063bce7d3a]
+[san-gnu:24074] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb234022bf7]
+[san-gnu:24074] [ 3] ./secuencialMPI(+0xa9a)[0x56063bce7a9a]
+[san-gnu:24074] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24091] *** Process received signal ***
+[san-gnu:24091] Signal: Segmentation fault (11)
+[san-gnu:24091] Signal code: Invalid permissions (2)
+[san-gnu:24091] Failing at address: 0x7f67e2720290
+[san-gnu:24092] *** Process received signal ***
+[san-gnu:24092] Signal: Segmentation fault (11)
+[san-gnu:24092] Signal code: Invalid permissions (2)
+[san-gnu:24092] Failing at address: 0x7f7ffc0ddb90
+[san-gnu:24093] *** Process received signal ***
+[san-gnu:24093] Signal: Segmentation fault (11)
+[san-gnu:24093] Signal code: Invalid permissions (2)
+[san-gnu:24093] Failing at address: 0x7fc6ac1c6310
+[san-gnu:24091] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f67f4297040]
+[san-gnu:24091] [ 1] ./secuencialMPI(+0xd3a)[0x55b93dbe1d3a]
+[san-gnu:24091] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f67f4279bf7]
+[san-gnu:24091] [ 3] ./secuencialMPI(+0xa9a)[0x55b93dbe1a9a]
+[san-gnu:24091] *** End of error message ***
+[san-gnu:24092] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f8007503040]
+[san-gnu:24092] [ 1] ./secuencialMPI(+0xd3a)[0x55d6ebaacd3a]
+[san-gnu:24092] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f80074e5bf7]
+[san-gnu:24092] [ 3] ./secuencialMPI(+0xa9a)[0x55d6ebaaca9a]
+[san-gnu:24092] *** End of error message ***
+[san-gnu:24093] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fc6b0810040]
+[san-gnu:24093] [ 1] ./secuencialMPI(+0xd3a)[0x55c6a27a3d3a]
+[san-gnu:24093] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fc6b07f2bf7]
+[san-gnu:24093] [ 3] ./secuencialMPI(+0xa9a)[0x55c6a27a3a9a]
+[san-gnu:24093] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24110] *** Process received signal ***
+[san-gnu:24110] Signal: Segmentation fault (11)
+[san-gnu:24110] Signal code: Invalid permissions (2)
+[san-gnu:24110] Failing at address: 0x7fbd605432b0
+[san-gnu:24112] *** Process received signal ***
+[san-gnu:24112] Signal: Segmentation fault (11)
+[san-gnu:24112] Signal code: Invalid permissions (2)
+[san-gnu:24112] Failing at address: 0x7f262813b0d0
+[san-gnu:24110] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fbd6dfcc040]
+[san-gnu:24110] [ 1] ./secuencialMPI(+0xd3a)[0x5645aa1abd3a]
+[san-gnu:24110] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fbd6dfaebf7]
+[san-gnu:24110] [ 3] ./secuencialMPI(+0xa9a)[0x5645aa1aba9a]
+[san-gnu:24110] *** End of error message ***
+[san-gnu:24112] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2635d35040]
+[san-gnu:24112] [ 1] ./secuencialMPI(+0xd3a)[0x558cca5a7d3a]
+[san-gnu:24112] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2635d17bf7]
+[san-gnu:24112] [ 3] ./secuencialMPI(+0xa9a)[0x558cca5a7a9a]
+[san-gnu:24112] *** End of error message ***
+[san-gnu:24113] *** Process received signal ***
+[san-gnu:24111] *** Process received signal ***
+[san-gnu:24111] Signal: Segmentation fault (11)
+[san-gnu:24111] Signal code: Invalid permissions (2)
+[san-gnu:24111] Failing at address: 0x7f2c4a50a2b0
+[san-gnu:24111] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2c5c040040]
+[san-gnu:24111] [ 1] ./secuencialMPI(+0xd3a)[0x55e56d4bbd3a]
+[san-gnu:24111] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2c5c022bf7]
+[san-gnu:24111] [ 3] ./secuencialMPI(+0xa9a)[0x55e56d4bba9a]
+[san-gnu:24111] *** End of error message ***
+[san-gnu:24113] Signal: Segmentation fault (11)
+[san-gnu:24113] Signal code: Invalid permissions (2)
+[san-gnu:24113] Failing at address: 0x7f06842013d0
+[san-gnu:24113] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f0687412040]
+[san-gnu:24113] [ 1] ./secuencialMPI(+0xd3a)[0x558b38d9dd3a]
+[san-gnu:24113] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f06873f4bf7]
+[san-gnu:24113] [ 3] ./secuencialMPI(+0xa9a)[0x558b38d9da9a]
+[san-gnu:24113] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24134] *** Process received signal ***
+[san-gnu:24134] Signal: Segmentation fault (11)
+[san-gnu:24134] Signal code: Invalid permissions (2)
+[san-gnu:24134] Failing at address: 0x7fc2478d8f10
+[san-gnu:24134] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fc2645dd040]
+[san-gnu:24134] [ 1] ./secuencialMPI(+0xd3a)[0x5592d47b9d3a]
+[san-gnu:24134] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fc2645bfbf7]
+[san-gnu:24134] [ 3] ./secuencialMPI(+0xa9a)[0x5592d47b9a9a]
+[san-gnu:24134] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Tiempo transcurrido: 0.000133 segundos
+Tiempo transcurrido: 0.004281 segundos
+[san-gnu:24188] *** Process received signal ***
+[san-gnu:24188] Signal: Segmentation fault (11)
+[san-gnu:24188] Signal code: Address not mapped (1)
+[san-gnu:24188] Failing at address: 0x5586e4d6d170
+[san-gnu:24189] *** Process received signal ***
+[san-gnu:24194] *** Process received signal ***
+[san-gnu:24194] Signal: Segmentation fault (11)
+[san-gnu:24194] Signal code: Address not mapped (1)
+[san-gnu:24194] Failing at address: 0x55d73be44170
+[san-gnu:24188] [ 0] /lib/x86_64-linux-gnu/libc.so.6[san-gnu:24189] Signal: Segmentation fault (11)
+[san-gnu:24189] Signal code: Address not mapped (1)
+[san-gnu:24189] Failing at address: 0x55e74d530020
+([san-gnu:24189] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x+0x3f040)[0x7f2b71d53040]
+[san-gnu:24189] [ 1] ./secuencialMPI(+0xd3a)[0x55e74ba19d3a]
+[san-gnu:24189] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2b71d35bf7]
+[san-gnu:24189] [ 3] ./secuencialMPI(+0xa9a)[0x55e74ba19a9a]
+[san-gnu:24189] *** End of error message ***
+3f040)[0x7fc009aa6040]
+[san-gnu:24188] [ 1] ./secuencialMPI(+0xd3a)[0x5586e404ed3a]
+[san-gnu:24188] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fc009a88bf7]
+[san-gnu:24188] [ 3] ./secuencialMPI(+0xa9a)[0x5586e404ea9a]
+[san-gnu:24188] *** End of error message ***
+[san-gnu:24194] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2fedda7040]
+[san-gnu:24194] [ 1] ./secuencialMPI(+0xd3a)[0x55d73aa0ad3a]
+[san-gnu:24194] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2fedd89bf7]
+[san-gnu:24194] [ 3] ./secuencialMPI(+0xa9a)[0x55d73aa0aa9a]
+[san-gnu:24194] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24207] *** Process received signal ***
+[san-gnu:24207] Signal: Segmentation fault (11)
+[san-gnu:24207] Signal code: Invalid permissions (2)
+[san-gnu:24207] Failing at address: 0x7f314c1dd5d0
+[san-gnu:24208] *** Process received signal ***
+[san-gnu:24208] Signal: Segmentation fault (11)
+[san-gnu:24208] Signal code: Invalid permissions (2)
+[san-gnu:24208] Failing at address: 0x7fded016a550
+[san-gnu:24209] *** Process received signal ***
+[san-gnu:24209] Signal: Segmentation fault (11)
+[san-gnu:24209] Signal code: Invalid permissions (2)
+[san-gnu:24209] Failing at address: 0x7fe6dc0f22d0
+[san-gnu:24210] *** Process received signal ***
+[san-gnu:24207] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f315060a040]
+[san-gnu:24207] [ 1] [san-gnu:24208] [ 0] [san-gnu:24209] [ 0] ./secuencialMPI(+0xd3a)[0x562e63e98d3a]
+[san-gnu:24207] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f31505ecbf7]
+[0x[san-gnu:24207] [ 3] ./secuencialMPI(+0xa9a)[0x562e63e98a9a]
+[san-gnu:24207] *** End of error message ***
+7fded672a040]
+[san-gnu:24208] [ 1] ./secuencialMPI(+0xd3a)[0x563605932d3a]
+[san-gnu:24208] [ 2] [san-gnu:24210] Signal: Segmentation fault (11)
+[san-gnu:24210] Signal code: Invalid permissions (2)
+[san-gnu:24210] Failing at address: 0x7fc9cc12e310
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fded670cbf7]
+[san-gnu:24208] [ 3] ./secuencialMPI(+0xa9a)[0x563605932a9a]
+[san-gnu:24208] *** End of error message ***
+[san-gnu:24210] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fc9cf540040]
+[san-gnu:24210] [ 1] ./secuencialMPI(+0xd3a)[0x55af269e7d3a]
+[san-gnu:24210] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fc9cf522bf7]
+[san-gnu:24210] [ 3] ./secuencialMPI(+0xa9a)[0x55af269e7a9a]
+[san-gnu:24210] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe6e10ba040]
+[san-gnu:24209] [ 1] ./secuencialMPI(+0xd3a)[0x55977dbecd3a]
+[san-gnu:24209] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe6e109cbf7]
+[san-gnu:24209] [ 3] ./secuencialMPI(+0xa9a)[0x55977dbeca9a]
+[san-gnu:24209] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24230] *** Process received signal ***
+[san-gnu:24230] Signal: Segmentation fault (11)
+[san-gnu:24230] Signal code: Invalid permissions (2)
+[san-gnu:24230] Failing at address: 0x7f948813b690
+[san-gnu:24229] *** Process received signal ***
+[san-gnu:24229] Signal: Segmentation fault (11)
+[san-gnu:24229] Signal code: Invalid permissions (2)
+[san-gnu:24229] Failing at address: 0x7f8b641d4790
+[san-gnu:24229] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f8b69d69040]
+[san-gnu:24229] [ 1] ./secuencialMPI(+0xd3a)[0x55b5dc39fd3a]
+[san-gnu:24229] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8b69d4bbf7]
+[san-gnu:24229] [ 3] ./secuencialMPI(+0xa9a)[0x55b5dc39fa9a]
+[san-gnu:24229] *** End of error message ***
+[san-gnu:24230] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f9495c06040]
+[san-gnu:24230] [ 1] ./secuencialMPI(+0xd3a)[0x55c2d664fd3a]
+[san-gnu:24230] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9495be8bf7]
+[san-gnu:24230] [ 3] ./secuencialMPI(+0xa9a)[0x55c2d664fa9a]
+[san-gnu:24230] *** End of error message ***
+[san-gnu:24228] *** Process received signal ***
+[san-gnu:24228] Signal: Segmentation fault (11)
+[san-gnu:24228] Signal code: Invalid permissions (2)
+[san-gnu:24228] Failing at address: 0x7faf200cb310
+[san-gnu:24228] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7faf2c059040]
+[san-gnu:24228] [ 1] ./secuencialMPI(+0xd3a)[0x55bf668a3d3a]
+[san-gnu:24228] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7faf2c03bbf7]
+[san-gnu:24228] [ 3] ./secuencialMPI(+0xa9a)[0x55bf668a3a9a]
+[san-gnu:24228] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24249] *** Process received signal ***
+[san-gnu:24249] Signal: Segmentation fault (11)
+[san-gnu:24249] Signal code: Invalid permissions (2)
+[san-gnu:24249] Failing at address: 0x7f99240ce610
+[san-gnu:24251] *** Process received signal ***
+[san-gnu:24251] Signal: Segmentation fault (11)
+[san-gnu:24251] Signal code: Invalid permissions (2)
+[san-gnu:24251] Failing at address: 0x7f6fc80ddb90
+[san-gnu:24249] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f992fd39040]
+[san-gnu:24249] [ 1] ./secuencialMPI(+0xd3a)[0x559fe3604d3a]
+[san-gnu:24249] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f992fd1bbf7]
+[san-gnu:24249] [ 3] ./secuencialMPI(+0xa9a)[0x559fe3604a9a]
+[san-gnu:24249] *** End of error message ***
+[san-gnu:24251] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f6fd3540040]
+[san-gnu:24251] [ 1] ./secuencialMPI(+0xd3a)[0x55c419ed3d3a]
+[san-gnu:24251] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f6fd3522bf7]
+[san-gnu:24251] [ 3] ./secuencialMPI(+0xa9a)[0x55c419ed3a9a]
+[san-gnu:24251] *** End of error message ***
+[san-gnu:24250] *** Process received signal ***
+[san-gnu:24250] Signal: Segmentation fault (11)
+[san-gnu:24250] Signal code: Invalid permissions (2)
+[san-gnu:24250] Failing at address: 0x7ff83c19f690
+[san-gnu:24252] *** Process received signal ***
+[san-gnu:24252] Signal: Segmentation fault (11)
+[san-gnu:24252] Signal code: Invalid permissions (2)
+[san-gnu:24252] Failing at address: 0x7f71b15b5290
+[san-gnu:24250] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff841b31040]
+[san-gnu:24250] [ 1] ./secuencialMPI(+0xd3a)[0x558ff7588d3a]
+[san-gnu:24250] [ 2] [san-gnu:24252] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f71bf0b6040]
+[san-gnu:24252] [ 1] ./secuencialMPI(+0xd3a)[0x564e09557d3a]
+[san-gnu:24252] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f71bf098bf7]
+[san-gnu:24252] [ 3] ./secuencialMPI(+0xa9a)[0x564e09557a9a]
+[san-gnu:24252] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff841b13bf7]
+[san-gnu:24250] [ 3] ./secuencialMPI(+0xa9a)[0x558ff7588a9a]
+[san-gnu:24250] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24274] *** Process received signal ***
+[san-gnu:24274] Signal: Segmentation fault (11)
+[san-gnu:24274] Signal code: Invalid permissions (2)
+[san-gnu:24274] Failing at address: 0x7fd4b14c00d0
+[san-gnu:24274] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd4c307e040]
+[san-gnu:24274] [ 1] ./secuencialMPI(+0xd3a)[0x55669cc91d3a]
+[san-gnu:24274] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd4c3060bf7]
+[san-gnu:24274] [ 3] ./secuencialMPI(+0xa9a)[0x55669cc91a9a]
+[san-gnu:24274] *** End of error message ***
+[san-gnu:24276] *** Process received signal ***
+[san-gnu:24276] Signal: Segmentation fault (11)
+[san-gnu:24276] Signal code: Invalid permissions (2)
+[san-gnu:24276] Failing at address: 0x7fa0b8f9c2b0
+[san-gnu:24276] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa0caa96040]
+[san-gnu:24276] [ 1] ./secuencialMPI(+0xd3a)[0x562c62843d3a]
+[san-gnu:24276] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa0caa78bf7]
+[san-gnu:24276] [ 3] ./secuencialMPI(+0xa9a)[0x562c62843a9a]
+[san-gnu:24276] *** End of error message ***
+[san-gnu:24273] *** Process received signal ***
+[san-gnu:24273] Signal: Segmentation fault (11)
+[san-gnu:24273] Signal code: Invalid permissions (2)
+[san-gnu:24273] Failing at address: 0x7fa5a07500d0
+[san-gnu:24273] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa5ae2e7040]
+[san-gnu:24273] [ 1] ./secuencialMPI(+0xd3a)[0x55f4a700fd3a]
+[san-gnu:24273] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa5ae2c9bf7]
+[san-gnu:24273] [ 3] ./secuencialMPI(+0xa9a)[0x55f4a700fa9a]
+[san-gnu:24273] *** End of error message ***
+[san-gnu:24275] *** Process received signal ***
+[san-gnu:24275] Signal: Segmentation fault (11)
+[san-gnu:24275] Signal code: Invalid permissions (2)
+[san-gnu:24275] Failing at address: 0x7f23022f90d0
+[san-gnu:24275] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2314008040]
+[san-gnu:24275] [ 1] ./secuencialMPI(+0xd3a)[0x5594b840cd3a]
+[san-gnu:24275] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2313feabf7]
+[san-gnu:24275] [ 3] ./secuencialMPI(+0xa9a)[0x5594b840ca9a]
+[san-gnu:24275] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24294] *** Process received signal ***
+[san-gnu:24294] Signal: Segmentation fault (11)
+[san-gnu:24294] Signal code: Invalid permissions (2)
+[san-gnu:24294] Failing at address: 0x7f11238d8f10
+[san-gnu:24294] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f11404ae040]
+[san-gnu:24294] [ 1] ./secuencialMPI(+0xd3a)[0x5584dee9ed3a]
+[san-gnu:24294] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1140490bf7]
+[san-gnu:24294] [ 3] ./secuencialMPI(+0xa9a)[0x5584dee9ea9a]
+[san-gnu:24294] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Tiempo transcurrido: 0.000092 segundos
+Tiempo transcurrido: 0.008496 segundos
+[san-gnu:24347] *** Process received signal ***
+[san-gnu:24347] Signal: Segmentation fault (11)
+[san-gnu:24347] Signal code: Address not mapped (1)
+[san-gnu:24347] Failing at address: 0x5618f3102020
+[san-gnu:24349] *** Process received signal ***
+[san-gnu:24349] Signal: Segmentation fault (11)
+[san-gnu:24349] Signal code: Address not mapped (1)
+[san-gnu:24349] Failing at address: 0x559c55fe1020
+[san-gnu:24347] [ 0] [san-gnu:24349] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f9190796040]
+[san-gnu:24349] [ 1] ./secuencialMPI(+0xd3a)[0x559c55608d3a]
+[san-gnu:24349] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9190778bf7]
+[san-gnu:24349] [ 3] ./secuencialMPI(+0xa9a)[0x559c55608a9a]
+[san-gnu:24349] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff14b335040]
+[san-gnu:24347] [ 1] ./secuencialMPI(+0xd3a)[0x5618f29edd3a]
+[san-gnu:24347] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff14b317bf7]
+[san-gnu:24348] *** Process received signal ***
+[san-gnu:24348] Signal: Segmentation fault (11)
+[san-gnu:24348] Signal code: Address not mapped (1)
+[san-gnu:24348] Failing at address: 0x55821c5e4020
+[san-gnu:24348] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fda79ff2040]
+[san-gnu:24348] [ 1] ./secuencialMPI(+0xd3a)[0x55821bf12d3a]
+[san-gnu:24348] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fda79fd4bf7]
+[san-gnu:24348] [ 3] ./secuencialMPI(+0xa9a)[0x55821bf12a9a]
+[san-gnu:24348] *** End of error message ***
+[san-gnu:24347] [ 3] ./secuencialMPI(+0xa9a)[0x5618f29eda9a]
+[san-gnu:24347] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24368] *** Process received signal ***
+[san-gnu:24368] Signal: Segmentation fault (11)
+[san-gnu:24368] Signal code: Invalid permissions (2)
+[san-gnu:24368] Failing at address: 0x7f9ad405b310
+[san-gnu:24368] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f9ad6c6c040]
+[san-gnu:24368] [ 1] ./secuencialMPI(+0xd3a)[0x55b57a98fd3a]
+[san-gnu:24368] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9ad6c4ebf7]
+[san-gnu:24368] [ 3] ./secuencialMPI(+0xa9a)[0x55b57a98fa9a]
+[san-gnu:24368] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24387] *** Process received signal ***
+[san-gnu:24388] *** Process received signal ***
+[san-gnu:24388] Signal: Segmentation fault (11)
+[san-gnu:24388] Signal code: Invalid permissions (2)
+[san-gnu:24388] Failing at address: 0x7fbb18f9c690
+[san-gnu:24389] *** Process received signal ***
+[san-gnu:24389] Signal: Segmentation fault (11)
+[san-gnu:24389] Signal code: Invalid permissions (2)
+[san-gnu:24389] Failing at address: 0x7fe3b00f2390
+[san-gnu:24390] *** Process received signal ***
+[san-gnu:24390] Signal: Segmentation fault (11)
+[san-gnu:24390] Signal code: Invalid permissions (2)
+[san-gnu:24390] Failing at address: 0x7fe3d4159210
+[san-gnu:24388] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fbb2aa99040]
+[san-gnu:24388] [ 1] ./secuencialMPI(+0xd3a)[0x55ec17254d3a]
+[san-gnu:24388] [ 2] [san-gnu:24389] [ 0] [san-gnu:24390] [ 0] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fbb2aa7bbf7]
+[san-gnu:24388] [ 3] ./secuencialMPI(+0x/lib/x86_64-linux-gnu/libc.so.6(a9a)[0x55ec17254a9a]
++0x3f040)[0x7fe3d817a040[san-gnu:24388] *** End of error message ***
+]
+[san-gnu:24390] [ 1] ./secuencialMPI(+0xd3a)[0x563863e00d3a]
+[san-gnu:24387] Signal: Segmentation fault (11)
+[san-gnu:24387] Signal code: Invalid permissions (2)
+[san-gnu:24387] Failing at address: 0x7f43dc131310
+[san-gnu:24387] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f43e24e0040]
+[san-gnu:24387] [ 1] ./secuencialMPI(+0xd3a)[0x55b772bfcd3a]
+[san-gnu:24387] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f43e24c2bf7]
+[san-gnu:24387] [ 3] ./secuencialMPI(+0xa9a)[0x55b772bfca9a]
+[san-gnu:24387] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe3bb258040]
+[san-gnu:24389] [ 1] [san-gnu:24390] ./secuencialMPI(+0xd3a)[0x563faa2b2d3a]
+[san-gnu:24389] [ 2] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe3d815cbf7]
+[san-gnu:24390] [ 3] ./secuencialMPI(+0xa9a)[0x563863e00a9a]
+[san-gnu:24390] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe3bb23abf7]
+[san-gnu:24389] [ 3] ./secuencialMPI(+0xa9a)[0x563faa2b2a9a]
+[san-gnu:24389] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24408] *** Process received signal ***
+[san-gnu:24408] Signal: Segmentation fault (11)
+[san-gnu:24408] Signal code: Invalid permissions (2)
+[san-gnu:24408] Failing at address: 0x7f6bc40d4890
+[san-gnu:24408] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f6bcff2d040]
+[san-gnu:24408] [ 1] ./secuencialMPI(+0xd3a)[0x5611d2f4dd3a]
+[san-gnu:24408] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f6bcff0fbf7]
+[san-gnu:24408] [ 3] ./secuencialMPI(+0xa9a)[0x5611d2f4da9a[san-gnu:24409] *** Process received signal ***
+]
+[san-gnu:24408] *** End of error message ***
+[san-gnu:24409] Signal: Segmentation fault (11)
+[san-gnu:24409] Signal code: Invalid permissions (2)
+[san-gnu:24409] Failing at address: 0x7f7db814ca90
+[san-gnu:24409] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f7dc5815040]
+[san-gnu:24409] [ 1] ./secuencialMPI(+0xd3a)[0x55bed452bd3a]
+[san-gnu:24409] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7dc57f7bf7]
+[san-gnu:24409] [ 3] ./secuencialMPI(+0xa9a)[0x55bed452ba9a]
+[san-gnu:24409] *** End of error message ***
+[san-gnu:24410] *** Process received signal ***
+[san-gnu:24410] Signal: Segmentation fault (11)
+[san-gnu:24410] Signal code: Invalid permissions (2)
+[san-gnu:24410] Failing at address: 0x7fa924543290
+[san-gnu:24410] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa932047040]
+[san-gnu:24410] [ 1] ./secuencialMPI(+0xd3a)[0x55c4f22eed3a]
+[san-gnu:24410] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa932029bf7]
+[san-gnu:24410] [ 3] ./secuencialMPI(+0xa9a)[0x55c4f22eea9a]
+[san-gnu:24410] *** End of error message ***
+[san-gnu:24411] *** Process received signal ***
+[san-gnu:24411] Signal: Segmentation fault (11)
+[san-gnu:24411] Signal code: Invalid permissions (2)
+[san-gnu:24411] Failing at address: 0x7f4ec41cc310
+[san-gnu:24411] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f4ec85f9040]
+[san-gnu:24411] [ 1] ./secuencialMPI(+0xd3a)[0x55f2c4a84d3a]
+[san-gnu:24411] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4ec85dbbf7]
+[san-gnu:24411] [ 3] ./secuencialMPI(+0xa9a)[0x55f2c4a84a9a]
+[san-gnu:24411] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24444] *** Process received signal ***
+[san-gnu:24444] Signal: Segmentation fault (11)
+[san-gnu:24444] Signal code: Invalid permissions (2)
+[san-gnu:24444] Failing at address: 0x7f1b7cb772b0
+[san-gnu:24445] *** Process received signal ***
+[san-gnu:24446] *** Process received signal ***
+[san-gnu:24446] Signal: Segmentation fault (11)
+[san-gnu:24446] Signal code: Invalid permissions (2)
+[san-gnu:24446] Failing at address: 0x7f27611370d0
+[san-gnu:24447] *** Process received signal ***
+[san-gnu:24447] Signal: Segmentation fault (11)
+[san-gnu:24447] Signal code: Invalid permissions (2)
+[san-gnu:24447] Failing at address: 0x7f6201adf0d0
+[san-gnu:24444] [ 0] [san-gnu:24446] [ 0] /lib/x86_64-linux-gnu/libc.so.6([san-gnu:24447] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f62137d6040]
+[san-gnu:24447] +0x[ 1] ./secuencialMPI(+0xd3a)[0x5608a3dd1d3a]
+[san-gnu:24447] [ 2] 3f040)[0x7f2772d89040]
+[san-gnu:24446] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f62137b8bf7]
+[san-gnu:24447] [ 3] ./secuencialMPI(+0xa9a)[0x5608a3dd1a9a[ 1] ./secuencialMPI]
+[san-gnu:24447] *** End of error message ***
+(+0xd3a)[san-gnu:24445] Signal: Segmentation fault (11)
+[san-gnu:24445] Signal code: Invalid permissions (2)
+[san-gnu:24445] Failing at address: 0x7f6e627200d0
+[0x56244648ed3a]
+[san-gnu:24446] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2772d6bbf7]
+[san-gnu:24446] [ 3] ./secuencialMPI(+0xa9a)[0x56244648ea9a]
+[san-gnu:24446] *** End of error message ***
+[san-gnu:24445] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f6e743cd040]
+[san-gnu:24445] [ 1] ./secuencialMPI(+0xd3a)[0x559d51bedd3a]
+[san-gnu:24445] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f6e743afbf7]
+[san-gnu:24445] [ 3] ./secuencialMPI(+0xa9a)[0x559d51beda9a]
+[san-gnu:24445] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1b8a604040]
+[san-gnu:24444] [ 1] ./secuencialMPI(+0xd3a)[0x556eaba29d3a]
+[san-gnu:24444] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1b8a5e6bf7]
+[san-gnu:24444] [ 3] ./secuencialMPI(+0xa9a)[0x556eaba29a9a]
+[san-gnu:24444] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24475] *** Process received signal ***
+[san-gnu:24475] Signal: Segmentation fault (11)
+[san-gnu:24475] Signal code: Invalid permissions (2)
+[san-gnu:24475] Failing at address: 0x7f66f38d8f10
+[san-gnu:24475] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f6710468040]
+[san-gnu:24475] [ 1] ./secuencialMPI(+0xd3a)[0x5571ff0d8d3a]
+[san-gnu:24475] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f671044abf7]
+[san-gnu:24475] [ 3] ./secuencialMPI(+0xa9a)[0x5571ff0d8a9a]
+[san-gnu:24475] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Tiempo transcurrido: 0.000141 segundos
+Tiempo transcurrido: 0.004601 segundos
+[san-gnu:24528] *** Process received signal ***
+[san-gnu:24528] Signal: Segmentation fault (11)
+[san-gnu:24528] Signal code: Address not mapped (1)
+[san-gnu:24528] Failing at address: 0x5624c496c170
+[san-gnu:24529] *** Process received signal ***
+[san-gnu:24529] Signal: Segmentation fault (11)
+[san-gnu:24529] Signal code: Address not mapped (1)
+[san-gnu:24529] Failing at address: 0x55d43ece4170
+[san-gnu:24530] *** Process received signal ***
+[san-gnu:24530] Signal: Segmentation fault (11)
+[san-gnu:24530] Signal code: Address not mapped (1)
+[san-gnu:24530] Failing at address: 0x5643970a00e0
+[san-gnu:24528] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe6bf5d8040]
+[san-gnu:24528] [ 1] ./secuencialMPI(+0xd3a)[0x5624c3fb9d3a]
+[san-gnu:24528] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe6bf5babf7]
+[san-gnu:24528] [ 3] ./secuencialMPI(+0xa9a)[0x5624c3fb9a9a]
+[san-gnu:24528] *** End of error message ***
+[san-gnu:24529] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f9c5990b040]
+[san-gnu:24529] [ 1] ./secuencialMPI(+0xd3a)[0x55d43d605d3a]
+[san-gnu:24529] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9c598edbf7]
+[san-gnu:24529] [ 3] ./secuencialMPI(+0xa9a)[0x55d43d605a9a]
+[san-gnu:24529] *** End of error message ***
+[san-gnu:24530] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f8bd43e5040]
+[san-gnu:24530] [ 1] ./secuencialMPI(+0xd3a)[0x56439609bd3a]
+[san-gnu:24530] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8bd43c7bf7]
+[san-gnu:24530] [ 3] ./secuencialMPI(+0xa9a)[0x56439609ba9a]
+[san-gnu:24530] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24552] *** Process received signal ***
+[san-gnu:24552] Signal: Segmentation fault (11)
+[san-gnu:24552] Signal code: Invalid permissions (2)
+[san-gnu:24552] Failing at address: 0x7fa338184590
+[san-gnu:24552] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa33e326040]
+[san-gnu:24552] [ 1] ./secuencialMPI(+0xd3a)[0x56490cf64d3a]
+[san-gnu:24552] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa33e308bf7]
+[san-gnu:24552] [ 3] ./secuencialMPI(+0xa9a)[0x56490cf64a9a]
+[san-gnu:24552] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24568] *** Process received signal ***
+[san-gnu:24568] Signal: Segmentation fault (11)
+[san-gnu:24568] Signal code: Invalid permissions (2)
+[san-gnu:24568] Failing at address: 0x7f234c13a4d0
+[san-gnu:24569] *** Process received signal ***
+[san-gnu:24569] Signal: Segmentation fault (11)
+[san-gnu:24569] Signal code: Invalid permissions (2)
+[san-gnu:24569] Failing at address: 0x7f6fe40ce3d0
+[san-gnu:24570] *** Process received signal ***
+[san-gnu:24570] Signal: Segmentation fault (11)
+[san-gnu:24570] Signal code: Invalid permissions (2)
+[san-gnu:24570] Failing at address: 0x7f0458b774d0
+[san-gnu:24568] [ 0] [san-gnu:24569] [ 0] [san-gnu:24570] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f04665f4040]
+[san-gnu:24570] [ 1] ./secuencialMPI(+0xd3a)[0x558c679f2d3a]
+[san-gnu:24570] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040[ 2] )[0x7f6fefa92040]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f04665d6bf7]
+[san-gnu:24570] [ 3] [san-gnu:24569] [ 1] ./secuencialMPI(+0xa9a)[0x558c679f2a9a]
+[san-gnu:24570] *** End of error message ***
+./secuencialMPI(+0xd3a)[0x5607f8b1dd3a]
+[san-gnu:24569] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f6fefa74bf7]
+[san-gnu:24569] [ 3] ./secuencialMPI(+0xa9a)[0x5607f8b1da9a]
+[san-gnu:24569] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f23593cb040]
+[san-gnu:24568] [ 1] ./secuencialMPI(+0xd3a)[0x5636c229fd3a]
+[san-gnu:24568] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f23593adbf7]
+[san-gnu:24568] [ 3] ./secuencialMPI(+0xa9a)[0x5636c229fa9a]
+[san-gnu:24568] *** End of error message ***
+[san-gnu:24571] *** Process received signal ***
+[san-gnu:24571] Signal: Segmentation fault (11)
+[san-gnu:24571] Signal code: Invalid permissions (2)
+[san-gnu:24571] Failing at address: 0x7ffa240d6950
+[san-gnu:24571] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ffa2f88f040]
+[san-gnu:24571] [ 1] ./secuencialMPI(+0xd3a)[0x5577a2fb3d3a]
+[san-gnu:24571] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ffa2f871bf7]
+[san-gnu:24571] [ 3] ./secuencialMPI(+0xa9a)[0x5577a2fb3a9a]
+[san-gnu:24571] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24589] *** Process received signal ***
+[san-gnu:24589] Signal: Segmentation fault (11)
+[san-gnu:24589] Signal code: Invalid permissions (2)
+[san-gnu:24589] Failing at address: 0x7f245415b690
+[san-gnu:24590] *** Process received signal ***
+[san-gnu:24591] *** Process received signal ***
+[san-gnu:24591] Signal: Segmentation fault (11)
+[san-gnu:24591] Signal code: Invalid permissions (2)
+[san-gnu:24591] Failing at address: 0x7f2b371d4290
+[san-gnu:24591] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2b48d2c040]
+[san-gnu:24591] [ 1] ./secuencialMPI(+0xd3a)[0x55a555f3ad3a]
+[san-gnu:24591] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2b48d0ebf7]
+[san-gnu:24591] [ 3] ./secuencialMPI(+0xa9a)[0x55a555f3aa9a]
+[san-gnu:24591] *** End of error message ***
+[san-gnu:24590] Signal: Segmentation fault (11)
+[san-gnu:24590] Signal code: Invalid permissions (2)
+[san-gnu:24590] Failing at address: 0x7fed6c170710
+[san-gnu:24590] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fed6ff86040]
+[san-gnu:24590] [ 1] ./secuencialMPI(+0xd3a)[0x55896d295d3a]
+[san-gnu:24590] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fed6ff68bf7]
+[san-gnu:24590] [ 3] ./secuencialMPI(+0xa9a)[0x55896d295a9a]
+[san-gnu:24590] *** End of error message ***
+[san-gnu:24589] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f245a0f8040]
+[san-gnu:24589] [ 1] ./secuencialMPI(+0xd3a)[0x5603d5474d3a]
+[san-gnu:24589] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f245a0dabf7]
+[san-gnu:24589] [ 3] ./secuencialMPI(+0xa9a)[0x5603d5474a9a]
+[san-gnu:24589] *** End of error message ***
+[san-gnu:24592] *** Process received signal ***
+[san-gnu:24592] Signal: Segmentation fault (11)
+[san-gnu:24592] Signal code: Invalid permissions (2)
+[san-gnu:24592] Failing at address: 0x7f69c01c1010
+[san-gnu:24592] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f69c5189040]
+[san-gnu:24592] [ 1] ./secuencialMPI(+0xd3a)[0x55558f0ccd3a]
+[san-gnu:24592] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f69c516bbf7]
+[san-gnu:24592] [ 3] ./secuencialMPI(+0xa9a)[0x55558f0cca9a]
+[san-gnu:24592] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24625] *** Process received signal ***
+[san-gnu:24625] Signal: Segmentation fault (11)
+[san-gnu:24625] Signal code: Invalid permissions (2)
+[san-gnu:24625] Failing at address: 0x7fb8fcf9c0d0
+[san-gnu:24626] *** Process received signal ***
+[san-gnu:24628] *** Process received signal ***
+[san-gnu:24628] Signal: Segmentation fault (11)
+[san-gnu:24628] Signal code: Invalid permissions (2)
+[san-gnu:24628] Failing at address: 0x7f23b2b9a0d0
+[san-gnu:24625] [ 0] [san-gnu:24628] [ 0] /lib/x86_64-linux-gnu/libc.so.6([san-gnu:24627] *** Process received signal ***
++0x3f040)[0x7fb90ebd1040]
+[san-gnu:24625] [ 1] ./secuencialMPI(+0xd3a)[0x55e8ced3ed3a]
+[san-gnu:24627] Signal: Segmentation fault (11)
+[san-gnu:24627] Signal code: Invalid permissions (2)
+[san-gnu:24627] Failing at address: 0x7f21c71d40d0
+[san-gnu:24625] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb90ebb3bf7]
+[san-gnu:24625] [ 3] ./secuencialMPI[san-gnu:24627] (+0xa9a)[0x55e8ced3ea9a]
+[san-gnu:24625] *** End of error message ***
+[ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f21d8d49040]
+[san-gnu:24627] [ 1] ./secuencialMPI(+0xd3a)[0x558e33448d3a]
+[san-gnu:24627] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f21d8d2bbf7]
+[san-gnu:24626] Signal: Segmentation fault (11)
+[san-gnu:24626] Signal code: Invalid permissions (2)
+[san-gnu:24626] Failing at address: 0x7f2a9a2f90d0
+[san-gnu:24627] [ 3] ./secuencialMPI(+0xa9a)[0x558e33448a9a]
+[san-gnu:24627] *** End of error message ***
+[san-gnu:24626] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2aabf50040]
+[san-gnu:24626] [ 1] ./secuencialMPI(+0xd3a)[0x556d37b57d3a]
+[san-gnu:24626] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2aabf32bf7]
+[san-gnu:24626] [ 3] ./secuencialMPI(+0xa9a)[0x556d37b57a9a]
+[san-gnu:24626] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f23c47e2040]
+[san-gnu:24628] [ 1] ./secuencialMPI(+0xd3a)[0x56508b699d3a]
+[san-gnu:24628] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f23c47c4bf7]
+[san-gnu:24628] [ 3] ./secuencialMPI(+0xa9a)[0x56508b699a9a]
+[san-gnu:24628] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24656] *** Process received signal ***
+[san-gnu:24656] Signal: Segmentation fault (11)
+[san-gnu:24656] Signal code: Invalid permissions (2)
+[san-gnu:24656] Failing at address: 0x7f1808998f10
+[san-gnu:24656] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1825674040]
+[san-gnu:24656] [ 1] ./secuencialMPI(+0xd3a)[0x55cca25a6d3a]
+[san-gnu:24656] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1825656bf7]
+[san-gnu:24656] [ 3] ./secuencialMPI(+0xa9a)[0x55cca25a6a9a]
+[san-gnu:24656] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Tiempo transcurrido: 0.000238 segundos
+Tiempo transcurrido: 0.006164 segundos
+[san-gnu:24711] *** Process received signal ***
+[san-gnu:24712] *** Process received signal ***
+[san-gnu:24712] Signal: Segmentation fault (11)
+[san-gnu:24712] Signal code: Address not mapped (1)
+[san-gnu:24712] Failing at address: 0x5560af8fe1a0
+[san-gnu:24713] *** Process received signal ***
+[san-gnu:24713] Signal: Segmentation fault (11)
+[san-gnu:24713] Signal code: Address not mapped (1)
+[san-gnu:24713] Failing at address: 0x55ae156021a0
+[san-gnu:24714] *** Process received signal ***
+[san-gnu:24714] Signal: Segmentation fault (11)
+[san-gnu:24714] Signal code: Address not mapped (1)
+[san-gnu:24714] Failing at address: 0x560fd9a231a0
+[san-gnu:24712] [ 0] [san-gnu:24714] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f7135cc3040]
+[san-gnu:24712] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f583f815040]
+[san-gnu:24714] [ 1] ./secuencialMPI(+0xd3a)[0x560fd7e23d3a]
+[san-gnu:24714] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f583f7f7bf7]
+[san-gnu:24714] [ 3] ./secuencialMPI(+0xa9a)[0x560fd7e23a9a]
+./secuencialMPI([san-gnu:24714] *** End of error message ***
++0xd3a)[0x5560ada1ad3a]
+[san-gnu:24712] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7135ca5bf7]
+[san-gnu:24712] [ 3] ./secuencialMPI(+0xa9a)[0x5560ada1aa9a]
+[san-gnu:24712] *** End of error message ***
+[san-gnu:24711] Signal: Segmentation fault (11)
+[san-gnu:24711] Signal code: Address not mapped (1)
+[san-gnu:24711] Failing at address: 0x556a5770d260
+[san-gnu:24711] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff311e55040]
+[san-gnu:24711] [ 1] ./secuencialMPI(+0xd3a)[0x556a55cd0d3a]
+[san-gnu:24711] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff311e37bf7]
+[san-gnu:24711] [ 3] ./secuencialMPI(+0xa9a)[0x556a55cd0a9a]
+[san-gnu:24711] *** End of error message ***
+[san-gnu:24713] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3874f6e040]
+[san-gnu:24713] [ 1] ./secuencialMPI(+0xd3a)[0x55ae14f29d3a]
+[san-gnu:24713] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3874f50bf7]
+[san-gnu:24713] [ 3] ./secuencialMPI(+0xa9a)[0x55ae14f29a9a]
+[san-gnu:24713] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24732] *** Process received signal ***
+[san-gnu:24732] Signal: Segmentation fault (11)
+[san-gnu:24732] Signal code: Invalid permissions (2)
+[san-gnu:24732] Failing at address: 0x7fa3e008b410
+[san-gnu:24734] *** Process received signal ***
+[san-gnu:24734] Signal: Segmentation fault (11)
+[san-gnu:24734] Signal code: Invalid permissions (2)
+[san-gnu:24734] Failing at address: 0x7f8a241d5310
+[san-gnu:24735] *** Process received signal ***
+[san-gnu:24735] Signal: Segmentation fault (11)
+[san-gnu:24735] Signal code: Invalid permissions (2)
+[san-gnu:24735] Failing at address: 0x7fedec1b3310
+[san-gnu:24732] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa3e643a040]
+[san-gnu:24732] [ 1] ./secuencialMPI(+0xd3a)[0x5591cf076d3a]
+[san-gnu:24732] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa3e641cbf7]
+[san-gnu:24732] [ 3] ./secuencialMPI(+0xa9a)[0x5591cf076a9a]
+[san-gnu:24732] *** End of error message ***
+[san-gnu:24734] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f8a275e7040]
+[san-gnu:24734] [ 1] ./secuencialMPI(+0xd3a)[0x56099c2bcd3a]
+[san-gnu:24734] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8a275c9bf7]
+[san-gnu:24734] [ 3] ./secuencialMPI(+0xa9a)[0x56099c2bca9a]
+[san-gnu:24734] *** End of error message ***
+[san-gnu:24735] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fedf1b45040]
+[san-gnu:24735] [ 1] ./secuencialMPI(+0xd3a)[0x55af12cb4d3a]
+[san-gnu:24735] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fedf1b27bf7]
+[san-gnu:24735] [ 3] ./secuencialMPI(+0xa9a)[0x55af12cb4a9a]
+[san-gnu:24735] *** End of error message ***
+[san-gnu:24733] *** Process received signal ***
+[san-gnu:24733] Signal: Segmentation fault (11)
+[san-gnu:24733] Signal code: Invalid permissions (2)
+[san-gnu:24733] Failing at address: 0x7f0208148390
+[san-gnu:24733] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f020bf5e040]
+[san-gnu:24733] [ 1] ./secuencialMPI(+0xd3a)[0x55993ee31d3a]
+[san-gnu:24733] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f020bf40bf7]
+[san-gnu:24733] [ 3] ./secuencialMPI(+0xa9a)[0x55993ee31a9a]
+[san-gnu:24733] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24754] *** Process received signal ***
+[san-gnu:24754] Signal: Segmentation fault (11)
+[san-gnu:24754] Signal code: Invalid permissions (2)
+[san-gnu:24754] Failing at address: 0x7f2a880f2550
+[san-gnu:24755] *** Process received signal ***
+[san-gnu:24755] Signal: Segmentation fault (11)
+[san-gnu:24755] Signal code: Invalid permissions (2)
+[san-gnu:24755] Failing at address: 0x7f846c1e2210
+[san-gnu:24758] *** Process received signal ***
+[san-gnu:24758] Signal: Segmentation fault (11)
+[san-gnu:24758] Signal code: Invalid permissions (2)
+[san-gnu:24758] Failing at address: 0x7f0d200f7390
+[san-gnu:24754] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[san-gnu:24755] [ 0] [san-gnu:24758] [ 0] [0x7f2a93273040]
+[san-gnu:24754] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)./secuencialMPI(+0xd3a)[0x55bf69365d3a]
+[san-gnu:24754] [ 2] [0x7f846f9f4040/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2a93255bf7]
+[san-gnu:24754] [ 3] ./secuencialMPI(+0xa9a)]
+[0x55bf69365a9a]
+[san-gnu:24754] *** End of error message ***
+[san-gnu:24755] [ 1] ./secuencialMPI(+0xd3a)[0x557d9a6f6d3a]
+[san-gnu:24755] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f846f9d6bf7]
+[san-gnu:24755] [ 3] ./secuencialMPI(+0xa9a)[0x557d9a6f6a9a]
+[san-gnu:24755] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f0d2566d040]
+[san-gnu:24758] [ 1] ./secuencialMPI(+0xd3a)[0x559ddf27bd3a]
+[san-gnu:24758] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f0d2564fbf7]
+[san-gnu:24758] [ 3] ./secuencialMPI(+0xa9a)[0x559ddf27ba9a]
+[san-gnu:24758] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24773] *** Process received signal ***
+[san-gnu:24773] Signal: Segmentation fault (11)
+[san-gnu:24773] Signal code: Invalid permissions (2)
+[san-gnu:24773] Failing at address: 0x7fcfac14ca90
+[san-gnu:24774] *** Process received signal ***
+[san-gnu:24774] Signal: Segmentation fault (11)
+[san-gnu:24774] Signal code: Invalid permissions (2)
+[san-gnu:24774] Failing at address: 0x7ffb880cb710
+[san-gnu:24775] *** Process received signal ***
+[san-gnu:24776] *** Process received signal ***
+[san-gnu:24776] Signal: Segmentation fault (11)
+[san-gnu:24776] Signal code: Invalid permissions (2)
+[san-gnu:24776] Failing at address: 0x7fc1e81a5690
+[san-gnu:24773] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fcfb97c9040]
+[san-gnu:24773] [ 1] [san-gnu:24774] [ 0] [san-gnu:24776] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fc1eb1b6040]
+[san-gnu:24776] ./secuencialMPI(+0xd3a)[0x55cf2bf2dd3a]
+[ 1] ./secuencialMPI(+0xd3a)[0x562b03f21d3a]
+[san-gnu:24776] [ 2] [san-gnu:24773] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fcfb97abbf7]
+[san-gnu:24773] +0x[ 3] ./secuencialMPI(+0xa9a)[0x55cf2bf2da9a]
+[san-gnu:24773] *** End of error message ***
+[san-gnu:24775] Signal: Segmentation fault (11)
+[san-gnu:24775] Signal code: Invalid permissions (2)
+[san-gnu:24775] Failing at address: 0x7f77d0543290
+e7[san-gnu:24775] [ 0] )/lib/x86_64-linux-gnu/libc.so.6[0x(+0x3f040)[0x7f77de0bc040]
+[san-gnu:24775] [ 1] ./secuencialMPI(+0xd3a)[0x559bfc202d3a]
+[san-gnu:24775] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f77de09ebf7]
+[san-gnu:24775] [ 3] ./secuencialMPI(+0xa9a)[0x559bfc202a9a]
+[san-gnu:24775] *** End of error message ***
+7fc1eb198bf7]
+[san-gnu:24776] [ 3] ./secuencialMPI(+0xa9a)[0x562b03f21a9a]
+[san-gnu:24776] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ffb94100040]
+[san-gnu:24774] [ 1] ./secuencialMPI(+0xd3a)[0x56225556fd3a]
+[san-gnu:24774] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ffb940e2bf7]
+[san-gnu:24774] [ 3] ./secuencialMPI(+0xa9a)[0x56225556fa9a]
+[san-gnu:24774] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24794] *** Process received signal ***
+[san-gnu:24795] *** Process received signal ***
+[san-gnu:24795] Signal: Segmentation fault (11)
+[san-gnu:24795] Signal code: Invalid permissions (2)
+[san-gnu:24795] Failing at address: 0x7f0e645430d0
+[san-gnu:24796] *** Process received signal ***
+[san-gnu:24796] Signal: Segmentation fault (11)
+[san-gnu:24796] Signal code: Invalid permissions (2)
+[san-gnu:24796] Failing at address: 0x7fbf38f812b0
+[san-gnu:24797] *** Process received signal ***
+[san-gnu:24797] Signal: Segmentation fault (11)
+[san-gnu:24797] Signal code: Invalid permissions (2)
+[san-gnu:24797] Failing at address: 0x7fa1bc1f2250
+[san-gnu:24796] [ 0] [san-gnu:24797] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa1c29c8040]
+[san-gnu:24797] [ 1] ./secuencialMPI(+0xd3a)[0x55e82714dd3a]
+[san-gnu:24797] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa1c29aabf7]
+[san-gnu:24797] [ 3] 3f040)[0x./secuencialMPI(+0xa9a)[0x55e82714da9a7fbf469ec040]
+[san-gnu:24796] [ 1] ]
+[san-gnu:24797] *** End of error message ***
+./secuencialMPI(+0xd3a)[0x559416ed0d3a]
+[san-gnu:24796] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fbf469cebf7]
+[san-gnu:24796] [ 3] ./secuencialMPI(+0xa9a)[0x559416ed0a9a]
+[san-gnu:24796] *** End of error message ***
+[san-gnu:24794] Signal: Segmentation fault (11)
+[san-gnu:24794] Signal code: Invalid permissions (2)
+[san-gnu:24794] Failing at address: 0x7fdf3e2f92b0
+[san-gnu:24794] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fdf4fe6e040]
+[san-gnu:24794] [ 1] ./secuencialMPI(+0xd3a)[0x5641a2c3dd3a]
+[san-gnu:24794] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fdf4fe50bf7]
+[san-gnu:24794] [ 3] ./secuencialMPI(+0xa9a)[0x5641a2c3da9a]
+[san-gnu:24794] *** End of error message ***
+[san-gnu:24795] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f0e72155040]
+[san-gnu:24795] [ 1] ./secuencialMPI(+0xd3a)[0x55e5f0279d3a]
+[san-gnu:24795] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f0e72137bf7]
+[san-gnu:24795] [ 3] ./secuencialMPI(+0xa9a)[0x55e5f0279a9a]
+[san-gnu:24795] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24818] *** Process received signal ***
+[san-gnu:24818] Signal: Segmentation fault (11)
+[san-gnu:24818] Signal code: Invalid permissions (2)
+[san-gnu:24818] Failing at address: 0x7f7d52c97f10
+[san-gnu:24818] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f7d6f8fb040]
+[san-gnu:24818] [ 1] ./secuencialMPI(+0xd3a)[0x5618b265cd3a]
+[san-gnu:24818] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7d6f8ddbf7]
+[san-gnu:24818] [ 3] ./secuencialMPI(+0xa9a)[0x5618b265ca9a]
+[san-gnu:24818] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Tiempo transcurrido: 0.000217 segundos
+Tiempo transcurrido: 0.012095 segundos
+[san-gnu:24873] *** Process received signal ***
+[san-gnu:24873] Signal: Segmentation fault (11)
+[san-gnu:24873] Signal code: Address not mapped (1)
+[san-gnu:24873] Failing at address: 0x56414f7e1020
+[san-gnu:24874] *** Process received signal ***
+[san-gnu:24874] Signal: Segmentation fault (11)
+[san-gnu:24874] Signal code: Address not mapped (1)
+[san-gnu:24874] Failing at address: 0x5585fb820020
+[san-gnu:24873] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f9b5010f040]
+[san-gnu:24873] [ 1] ./secuencialMPI(+0xd3a)[0x56414d72ad3a]
+[san-gnu:24873] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9b500f1bf7]
+[san-gnu:24873] [ 3] ./secuencialMPI(+0xa9a)[0x56414d72aa9a]
+[san-gnu:24873] *** End of error message ***
+[san-gnu:24874] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3a0d027040]
+[san-gnu:24874] [ 1] ./secuencialMPI(+0xd3a)[0x5585f9787d3a]
+[san-gnu:24874] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3a0d009bf7]
+[san-gnu:24874] [ 3] ./secuencialMPI(+0xa9a)[0x5585f9787a9a]
+[san-gnu:24874] *** End of error message ***
+[san-gnu:24872] *** Process received signal ***
+[san-gnu:24872] Signal: Segmentation fault (11)
+[san-gnu:24872] Signal code: Address not mapped (1)
+[san-gnu:24872] Failing at address: 0x557fa1e52020
+[san-gnu:24872] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe5068f2040]
+[san-gnu:24872] [ 1] ./secuencialMPI(+0xd3a)[0x557fa1133d3a]
+[san-gnu:24872] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe5068d4bf7]
+[san-gnu:24872] [ 3] ./secuencialMPI(+0xa9a)[0x557fa1133a9a]
+[san-gnu:24872] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24891] *** Process received signal ***
+[san-gnu:24892] *** Process received signal ***
+[san-gnu:24892] Signal: Segmentation fault (11)
+[san-gnu:24892] Signal code: Invalid permissions (2)
+[san-gnu:24892] Failing at address: 0x7f66941052d0
+[san-gnu:24894] *** Process received signal ***
+[san-gnu:24894] Signal: Segmentation fault (11)
+[san-gnu:24894] Signal code: Invalid permissions (2)
+[san-gnu:24894] Failing at address: 0x7f8e301453d0
+[san-gnu:24893] *** Process received signal ***
+[san-gnu:24893] Signal: Segmentation fault (11)
+[san-gnu:24893] Signal code: Invalid permissions (2)
+[san-gnu:24893] Failing at address: 0x7f66180c5390
+[san-gnu:24892] [ 0] [san-gnu:24894] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f8e33356040]
+[san-gnu:24894] [ 1] ./secuencialMPI(+0xd3a)[0x55f1cde79d3a]
+[san-gnu:24894] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8e33338bf7]
+[san-gnu:24894] [ 3] ./secuencialMPI(+0xa9a[0x)[0x55f1cde79a9a]
+[san-gnu:24894] *** End of error message ***
+7f66990cd040]
+[san-gnu:24892] [ 1] ./secuencialMPI(+0x[san-gnu:24891] Signal: Segmentation fault (11)
+[san-gnu:24891] Signal code: Invalid permissions (2)
+[san-gnu:24891] Failing at address: 0x7f96e809b2d0
+d3a)[0x55b27a4aad3a]
+[san-gnu:24892] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main[san-gnu:24891] [ 0] +0xe7)[0x7f66990afbf7]
+[san-gnu:24892] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f96ed063040]
+[san-gnu:24891] [ 1] [ 3] ./secuencialMPI./secuencialMPI(+0xd3a)[0x55834a1ffd3a]
+[san-gnu:24891] [ 2] (+0xa9a/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f96ed045bf7]
+[san-gnu:24891] [ 3] ./secuencialMPI(+0x)[0xa9a)[0x55834a1ffa9a]
+55b27a4aaa9a]
+[san-gnu:24892] *** End of error message ***
+[san-gnu:24891] *** End of error message ***
+[san-gnu:24893] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f661bedb040]
+[san-gnu:24893] [ 1] ./secuencialMPI(+0xd3a)[0x557749647d3a]
+[san-gnu:24893] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f661bebdbf7]
+[san-gnu:24893] [ 3] ./secuencialMPI(+0xa9a)[0x557749647a9a]
+[san-gnu:24893] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24912] *** Process received signal ***
+[san-gnu:24913] *** Process received signal ***
+[san-gnu:24913] Signal: Segmentation fault (11)
+[san-gnu:24913] Signal code: Invalid permissions (2)
+[san-gnu:24913] Failing at address: 0x7fa2680ce210
+[san-gnu:24914] *** Process received signal ***
+[san-gnu:24914] Signal: Segmentation fault (11)
+[san-gnu:24914] Signal code: Invalid permissions (2)
+[san-gnu:24914] Failing at address: 0x7f596c110210
+[san-gnu:24913] [ 0] [san-gnu:24914] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa273c46040]
+[san-gnu:24913] [ 1] ./secuencialMPI(+0xd3a)[0x55e796999d3a]
+[san-gnu:24913] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa273c28bf7]
+[san-gnu:24913] [ 3] ./secuencialMPI(+0xa9a)[0x55e796999a9a]
+[san-gnu:24913] *** End of error message ***
+[san-gnu:24912] Signal: Segmentation fault (11)
+[san-gnu:24912] Signal code: Invalid permissions (2)
+[san-gnu:24912] Failing at address: 0x7f093f1d44d0
+[san-gnu:24912] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f0950c51040]
+[san-gnu:24912] [ 1] ./secuencialMPI(+0xd3a)[0x562fef0d6d3a]
+[san-gnu:24912] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f0950c33bf7]
+[san-gnu:24912] [ 3] ./secuencialMPI(+0xa9a)[0x562fef0d6a9a]
+[san-gnu:24912] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f596f522040]
+[san-gnu:24914] [ 1] ./secuencialMPI(+0xd3a)[0x55f115457d3a]
+[san-gnu:24914] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f596f504bf7]
+[san-gnu:24914] [ 3] ./secuencialMPI(+0xa9a)[0x55f115457a9a]
+[san-gnu:24914] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24932] *** Process received signal ***
+[san-gnu:24932] Signal: Segmentation fault (11)
+[san-gnu:24932] Signal code: Invalid permissions (2)
+[san-gnu:24932] Failing at address: 0x7f7a541b4910
+[san-gnu:24933] *** Process received signal ***
+[san-gnu:24934] *** Process received signal ***
+[san-gnu:24934] Signal: Segmentation fault (11)
+[san-gnu:24934] Signal code: Invalid permissions (2)
+[san-gnu:24934] Failing at address: 0x7f41c2dba310
+[san-gnu:24935] *** Process received signal ***
+[san-gnu:24935] Signal: Segmentation fault (11)
+[san-gnu:24935] Signal code: Invalid permissions (2)
+[san-gnu:24935] Failing at address: 0x7f40f71d4310
+[san-gnu:24932] [ 0] [san-gnu:24934] [ 0] [san-gnu:24935] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f4108ccd040]
+/lib/x86_64-linux-gnu/libc.so.6(+0x[san-gnu:24935] [ 1] ./secuencialMPI(+0xd3a)[0x55af6fab4d3a]
+[san-gnu:24935] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4108cafbf7]
+3f040)[0x7f41d4875040[san-gnu:24935] [ 3] ./secuencialMPI(+0xa9a)[0x]
+[san-gnu:24934] 55af6fab4a9a]
+[san-gnu:24935] *** End of error message ***
+[ 1] ./secuencialMPI(+0xd3a)[0x55d20164fd3a]
+[san-gnu:24934] [san-gnu:24933] Signal: Segmentation fault (11)
+[san-gnu:24933] Signal code: Invalid permissions (2)
+[san-gnu:24933] Failing at address: 0x7f77b40ce610
+[ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f41d4857bf7]
+[san-gnu:24934] [ 3] ./secuencialMPI(+0xa9a)[0x55d20164fa9a]
+[san-gnu:24934] *** End of error message ***
+[san-gnu:24933] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f77bfcf4040]
+[san-gnu:24933] [ 1] ./secuencialMPI(+0xd3a)[0x55a867b91d3a]
+[san-gnu:24933] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f77bfcd6bf7]
+[san-gnu:24933] [ 3] ./secuencialMPI(+0xa9a)[0x55a867b91a9a]
+[san-gnu:24933] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f7a5a356040]
+[san-gnu:24932] [ 1] ./secuencialMPI(+0xd3a)[0x56471204cd3a]
+[san-gnu:24932] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7a5a338bf7]
+[san-gnu:24932] [ 3] ./secuencialMPI(+0xa9a)[0x56471204ca9a]
+[san-gnu:24932] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24956] *** Process received signal ***
+[san-gnu:24956] Signal: Segmentation fault (11)
+[san-gnu:24956] Signal code: Invalid permissions (2)
+[san-gnu:24956] Failing at address: 0x7fc69d8dc0d0
+[san-gnu:24957] *** Process received signal ***
+[san-gnu:24957] Signal: Segmentation fault (11)
+[san-gnu:24957] Signal code: Invalid permissions (2)
+[san-gnu:24957] Failing at address: 0x7fe0411370d0
+[san-gnu:24959] *** Process received signal ***
+[san-gnu:24956] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fc6af59e040]
+[san-gnu:24956] [ 1] ./secuencialMPI(+0xd3a)[0x55a779220d3a]
+[san-gnu:24956] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fc6af580bf7]
+[san-gnu:24956] [ 3] ./secuencialMPI(+0xa9a)[0x55a779220a9a]
+[san-gnu:24956] *** End of error message ***
+[san-gnu:24959] Signal: Segmentation fault (11)
+[san-gnu:24959] Signal code: Invalid permissions (2)
+[san-gnu:24959] Failing at address: 0x7efe513b20d0
+[san-gnu:24959] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7efe5ef69040]
+[san-gnu:24959] [ 1] ./secuencialMPI(+0xd3a)[0x55b8425c8d3a]
+[san-gnu:24959] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7efe5ef4bbf7]
+[san-gnu:24959] [ 3] ./secuencialMPI(+0xa9a)[0x55b8425c8a9a]
+[san-gnu:24959] *** End of error message ***
+[san-gnu:24957] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe052df8040]
+[san-gnu:24957] [ 1] ./secuencialMPI(+0xd3a)[0x5576946b0d3a]
+[san-gnu:24957] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe052ddabf7]
+[san-gnu:24957] [ 3] ./secuencialMPI(+0xa9a)[0x5576946b0a9a]
+[san-gnu:24957] *** End of error message ***
+[san-gnu:24958] *** Process received signal ***
+[san-gnu:24958] Signal: Segmentation fault (11)
+[san-gnu:24958] Signal code: Invalid permissions (2)
+[san-gnu:24958] Failing at address: 0x7f1918d7c2b0
+[san-gnu:24958] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f192681c040]
+[san-gnu:24958] [ 1] ./secuencialMPI(+0xd3a)[0x558c89365d3a]
+[san-gnu:24958] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f19267febf7]
+[san-gnu:24958] [ 3] ./secuencialMPI(+0xa9a)[0x558c89365a9a]
+[san-gnu:24958] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:24977] *** Process received signal ***
+[san-gnu:24977] Signal: Segmentation fault (11)
+[san-gnu:24977] Signal code: Invalid permissions (2)
+[san-gnu:24977] Failing at address: 0x7fdb920eaf10
+[san-gnu:24977] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fdbaec29040]
+[san-gnu:24977] [ 1] ./secuencialMPI(+0xd3a)[0x563fbdddad3a]
+[san-gnu:24977] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fdbaec0bbf7]
+[san-gnu:24977] [ 3] ./secuencialMPI(+0xa9a)[0x563fbdddaa9a]
+[san-gnu:24977] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Tiempo transcurrido: 0.000157 segundos
+Tiempo transcurrido: 0.007947 segundos
+[san-gnu:25031] *** Process received signal ***
+[san-gnu:25031] Signal: Segmentation fault (11)
+[san-gnu:25031] Signal code: Address not mapped (1)
+[san-gnu:25031] Failing at address: 0x55de2c6fb020
+[san-gnu:25034] *** Process received signal ***
+[san-gnu:25034] Signal: Segmentation fault (11)
+[san-gnu:25034] Signal code: Address not mapped (1)
+[san-gnu:25034] Failing at address: 0x564c31d0e020
+[san-gnu:25031] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2c08652040]
+[san-gnu:25031] [ 1] ./secuencialMPI(+0xd3a)[0x55de2aa77d3a]
+[san-gnu:25031] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2c08634bf7]
+[san-gnu:25031] [ 3] ./secuencialMPI(+0xa9a)[0x55de2aa77a9a]
+[san-gnu:25031] *** End of error message ***
+[san-gnu:25034] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f18d66fd040]
+[san-gnu:25034] [ 1] ./secuencialMPI(+0xd3a)[0x564c300aad3a]
+[san-gnu:25034] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f18d66dfbf7]
+[san-gnu:25034] [ 3] ./secuencialMPI(+0xa9a)[0x564c300aaa9a]
+[san-gnu:25034] *** End of error message ***
+[san-gnu:25030] *** Process received signal ***
+[san-gnu:25030] Signal: Segmentation fault (11)
+[san-gnu:25030] Signal code: Address not mapped (1)
+[san-gnu:25030] Failing at address: 0x55d5c2a7d020
+[san-gnu:25030] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f904ebc7040]
+[san-gnu:25030] [ 1] ./secuencialMPI(+0xd3a)[0x55d5c15c1d3a]
+[san-gnu:25030] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f904eba9bf7]
+[san-gnu:25030] [ 3] ./secuencialMPI(+0xa9a)[0x55d5c15c1a9a]
+[san-gnu:25030] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25050] *** Process received signal ***
+[san-gnu:25051] *** Process received signal ***
+[san-gnu:25051] Signal: Segmentation fault (11)
+[san-gnu:25051] Signal code: Invalid permissions (2)
+[san-gnu:25051] Failing at address: 0x7fdf0010e310
+[san-gnu:25051] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fdf0412f040]
+[san-gnu:25051] [ 1] ./secuencialMPI(+0xd3a)[0x5633b2192d3a]
+[san-gnu:25051] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fdf04111bf7]
+[san-gnu:25051] [ 3] ./secuencialMPI(+0xa9a)[0x5633b2192a9a]
+[san-gnu:25051] *** End of error message ***
+[san-gnu:25050] Signal: Segmentation fault (11)
+[san-gnu:25050] Signal code: Invalid permissions (2)
+[san-gnu:25050] Failing at address: 0x7f246c0cd3d0
+[san-gnu:25050] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f246eadd040]
+[san-gnu:25050] [ 1] ./secuencialMPI(+0xd3a)[0x56444cc7dd3a]
+[san-gnu:25050] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f246eabfbf7]
+[san-gnu:25050] [ 3] ./secuencialMPI(+0xa9a)[0x56444cc7da9a]
+[san-gnu:25050] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25069] *** Process received signal ***
+[san-gnu:25069] Signal: Segmentation fault (11)
+[san-gnu:25069] Signal code: Invalid permissions (2)
+[san-gnu:25069] Failing at address: 0x7efe0c0f6790
+[san-gnu:25070] *** Process received signal ***
+[san-gnu:25069] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7efe11c8b040]
+[san-gnu:25069] [ 1] ./secuencialMPI(+0xd3a)[0x55f9d261ed3a]
+[san-gnu:25069] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7efe11c6dbf7]
+[san-gnu:25069] [ 3] ./secuencialMPI(+0xa9a)[0x55f9d261ea9a]
+[san-gnu:25069] *** End of error message ***
+[san-gnu:25070] Signal: Segmentation fault (11)
+[san-gnu:25070] Signal code: Invalid permissions (2)
+[san-gnu:25070] Failing at address: 0x7f35dc0f2210
+[san-gnu:25070] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f35ded03040]
+[san-gnu:25070] [ 1] ./secuencialMPI(+0xd3a)[0x56261268bd3a]
+[san-gnu:25070] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f35dece5bf7]
+[san-gnu:25070] [ 3] ./secuencialMPI(+0xa9a)[0x56261268ba9a]
+[san-gnu:25070] *** End of error message ***
+[san-gnu:25068] *** Process received signal ***
+[san-gnu:25068] Signal: Segmentation fault (11)
+[san-gnu:25068] Signal code: Invalid permissions (2)
+[san-gnu:25068] Failing at address: 0x7f4e481fa790
+[san-gnu:25068] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f4e4dd8f040]
+[san-gnu:25068] [ 1] ./secuencialMPI(+0xd3a)[0x55e770a0cd3a]
+[san-gnu:25068] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4e4dd71bf7]
+[san-gnu:25068] [ 3] ./secuencialMPI(+0xa9a)[0x55e770a0ca9a]
+[san-gnu:25068] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25091] *** Process received signal ***
+[san-gnu:25091] Signal: Segmentation fault (11)
+[san-gnu:25091] Signal code: Invalid permissions (2)
+[san-gnu:25091] Failing at address: 0x7f14440ce610
+[san-gnu:25094] *** Process received signal ***
+[san-gnu:25094] Signal: Segmentation fault (11)
+[san-gnu:25094] Signal code: Invalid permissions (2)
+[san-gnu:25094] Failing at address: 0x7f05bc543290
+[san-gnu:25091] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f144faf7040]
+[san-gnu:25091] [ 1] ./secuencialMPI(+0xd3a)[0x561dd8b2ad3a]
+[san-gnu:25091] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f144fad9bf7]
+[san-gnu:25091] [ 3] ./secuencialMPI(+0xa9a)[0x561dd8b2aa9a]
+[san-gnu:25091] *** End of error message ***
+[san-gnu:25094] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f05ca04d040]
+[san-gnu:25094] [ 1] ./secuencialMPI(+0xd3a)[0x55675f91ad3a]
+[san-gnu:25094] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f05ca02fbf7]
+[san-gnu:25094] [ 3] ./secuencialMPI(+0xa9a)[0x55675f91aa9a]
+[san-gnu:25094] *** End of error message ***
+[san-gnu:25093] *** Process received signal ***
+[san-gnu:25093] Signal: Segmentation fault (11)
+[san-gnu:25093] Signal code: Invalid permissions (2)
+[san-gnu:25093] Failing at address: 0x7f69c81cd310
+[san-gnu:25093] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[san-gnu:25092] *** Process received signal ***
+[san-gnu:25092] Signal: Segmentation fault (11)
+[san-gnu:25092] Signal code: Invalid permissions (2)
+[san-gnu:25092] Failing at address: 0x7f79ac1e9690
+[san-gnu:25092] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f79b1b7b040]
+[san-gnu:25092] [ 1] ./secuencialMPI(+0xd3a)[0x5651d1f7bd3a]
+[san-gnu:25092] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f79b1b5dbf7]
+[san-gnu:25092] [ 3] ./secuencialMPI(+0xa9a)[0x5651d1f7ba9a]
+[san-gnu:25092] *** End of error message ***
+[0x7f69d5241040]
+[san-gnu:25093] [ 1] ./secuencialMPI(+0xd3a)[0x563095f1fd3a]
+[san-gnu:25093] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f69d5223bf7]
+[san-gnu:25093] [ 3] ./secuencialMPI(+0xa9a)[0x563095f1fa9a]
+[san-gnu:25093] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25112] *** Process received signal ***
+[san-gnu:25112] Signal: Segmentation fault (11)
+[san-gnu:25112] Signal code: Invalid permissions (2)
+[san-gnu:25112] Failing at address: 0x7f3a8413b0d0
+[san-gnu:25115] *** Process received signal ***
+[san-gnu:25115] Signal: Segmentation fault (11)
+[san-gnu:25115] Signal code: Invalid permissions (2)
+[san-gnu:25115] Failing at address: 0x7f18697b30d0
+[san-gnu:25115] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f187735f040]
+[san-gnu:25115] [ 1] ./secuencialMPI(+0xd3a)[0x55634145ad3a]
+[san-gnu:25115] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1877341bf7]
+[san-gnu:25115] [ 3] ./secuencialMPI(+0x[san-gnu:25113] *** Process received signal ***
+a9a)[0x55634145aa9a[san-gnu:25113] Signal: Segmentation fault (11)
+[san-gnu:25113] Signal code: Invalid permissions (2)
+[san-gnu:25113] Failing at address: 0x7fb701ee70d0
+]
+[san-gnu:25115] *** End of error message ***
+[san-gnu:25113] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fb713be5040]
+[san-gnu:25113] [ 1] ./secuencialMPI(+0xd3a)[0x5616a0de1d3a]
+[san-gnu:25113] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb713bc7bf7]
+[san-gnu:25113] [ 3] ./secuencialMPI(+0xa9a)[0x5616a0de1a9a]
+[san-gnu:25113] *** End of error message ***
+[san-gnu:25112] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3a91cad040]
+[san-gnu:25112] [ 1] ./secuencialMPI(+0xd3a)[0x5619a52e4d3a]
+[san-gnu:25112] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3a91c8fbf7]
+[san-gnu:25112] [ 3] ./secuencialMPI(+0xa9a)[0x5619a52e4a9a]
+[san-gnu:25112] *** End of error message ***
+[san-gnu:25114] *** Process received signal ***
+[san-gnu:25114] Signal: Segmentation fault (11)
+[san-gnu:25114] Signal code: Invalid permissions (2)
+[san-gnu:25114] Failing at address: 0x7f8c8414ce90
+[san-gnu:25114] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f8c91889040]
+[san-gnu:25114] [ 1] ./secuencialMPI(+0xd3a)[0x556eb0e44d3a]
+[san-gnu:25114] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8c9186bbf7]
+[san-gnu:25114] [ 3] ./secuencialMPI(+0xa9a)[0x556eb0e44a9a]
+[san-gnu:25114] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25133] *** Process received signal ***
+[san-gnu:25133] Signal: Segmentation fault (11)
+[san-gnu:25133] Signal code: Invalid permissions (2)
+[san-gnu:25133] Failing at address: 0x7f7bc4db2f10
+[san-gnu:25133] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f7be1a88040]
+[san-gnu:25133] [ 1] ./secuencialMPI(+0xd3a)[0x559ba6329d3a]
+[san-gnu:25133] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7be1a6abf7]
+[san-gnu:25133] [ 3] ./secuencialMPI(+0xa9a)[0x559ba6329a9a]
+[san-gnu:25133] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Tiempo transcurrido: 0.000199 segundos
+Tiempo transcurrido: 0.003843 segundos
+[san-gnu:25185] *** Process received signal ***
+[san-gnu:25185] Signal: Segmentation fault (11)
+[san-gnu:25185] Signal code: Address not mapped (1)
+[san-gnu:25185] Failing at address: 0x560a2c9ef240
+[san-gnu:25186] *** Process received signal ***
+[san-gnu:25187] *** Process received signal ***
+[san-gnu:25187] Signal: Segmentation fault (11)
+[san-gnu:25187] Signal code: Address not mapped (1)
+[san-gnu:25187] Failing at address: 0x55f0facff180
+[san-gnu:25188] *** Process received signal ***
+[san-gnu:25188] Signal: Segmentation fault (11)
+[san-gnu:25188] Signal code: Address not mapped (1)
+[san-gnu:25188] Failing at address: 0x55cf433432b0
+[san-gnu:25185] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fde26dcb040]
+[san-gnu:25185] [ 1] ./secuencialMPI(+0xd3a)[0x560a2bc7cd3a]
+[san-gnu:25185] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fde26dadbf7]
+[san-gnu:25185] [ 3] ./secuencialMPI(+0xa9a)[0x560a2bc7ca9a]
+[san-gnu:25185] *** End of error message ***
+[san-gnu:25187] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fea2bd1b040]
+[san-gnu:25187] [ 1] ./secuencialMPI(+0xd3a)[0x55f0fa3b5d3a]
+[san-gnu:25187] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fea2bcfdbf7]
+[san-gnu:25187] [ 3] ./secuencialMPI(+0xa9a)[0x55f0fa3b5a9a]
+[san-gnu:25187] *** End of error message ***
+[san-gnu:25188] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f430b077040]
+[san-gnu:25188] [ 1] ./secuencialMPI(+0xd3a)[0x55cf42852d3a]
+[san-gnu:25188] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f430b059bf7]
+[san-gnu:25188] [ 3] ./secuencialMPI(+0xa9a)[0x55cf42852a9a]
+[san-gnu:25188] *** End of error message ***
+[san-gnu:25186] Signal: Segmentation fault (11)
+[san-gnu:25186] Signal code: Address not mapped (1)
+[san-gnu:25186] Failing at address: 0x564aee98f1a0
+[san-gnu:25186] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f4a1608f040]
+[san-gnu:25186] [ 1] ./secuencialMPI(+0xd3a)[0x564aed082d3a]
+[san-gnu:25186] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4a16071bf7]
+[san-gnu:25186] [ 3] ./secuencialMPI(+0xa9a)[0x564aed082a9a]
+[san-gnu:25186] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25206] *** Process received signal ***
+[san-gnu:25206] Signal: Segmentation fault (11)
+[san-gnu:25206] Signal code: Invalid permissions (2)
+[san-gnu:25206] Failing at address: 0x7f389010a490
+[san-gnu:25206] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3895680040]
+[san-gnu:25206] [ 1] ./secuencialMPI(+0xd3a)[0x5570813c6d3a]
+[san-gnu:25206] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3895662bf7]
+[san-gnu:25206] [ 3] ./secuencialMPI(+0xa9a)[0x5570813c6a9a]
+[san-gnu:25206] *** End of error message ***
+[san-gnu:25209] *** Process received signal ***
+[san-gnu:25209] Signal: Segmentation fault (11)
+[san-gnu:25209] Signal code: Invalid permissions (2)
+[san-gnu:25209] Failing at address: 0x7fe358157250
+[san-gnu:25209] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe35dcec040]
+[san-gnu:25209] [ 1] ./secuencialMPI(+0xd3a)[0x55a6d6637d3a]
+[san-gnu:25209] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe35dccebf7]
+[san-gnu:25209] [ 3] ./secuencialMPI(+0xa9a)[0x55a6d6637a9a]
+[san-gnu:25209] *** End of error message ***
+[san-gnu:25208] *** Process received signal ***
+[san-gnu:25208] Signal: Segmentation fault (11)
+[san-gnu:25208] Signal code: Invalid permissions (2)
+[san-gnu:25208] Failing at address: 0x7ff8ac1cb310
+[san-gnu:25208] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff8aeddc040]
+[san-gnu:25208] [ 1] ./secuencialMPI(+0xd3a)[0x5579d29f7d3a]
+[san-gnu:25208] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff8aedbebf7]
+[san-gnu:25208] [ 3] ./secuencialMPI(+0xa9a)[0x5579d29f7a9a]
+[san-gnu:25208] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25229] *** Process received signal ***
+[san-gnu:25231] *** Process received signal ***
+[san-gnu:25231] Signal: Segmentation fault (11)
+[san-gnu:25231] Signal code: Invalid permissions (2)
+[san-gnu:25231] Failing at address: 0x7f629814e210
+[san-gnu:25234] *** Process received signal ***
+[san-gnu:25234] Signal: Segmentation fault (11)
+[san-gnu:25234] Signal code: Invalid permissions (2)
+[san-gnu:25234] Failing at address: 0x7fe3400cb310
+[san-gnu:25230] *** Process received signal ***
+[san-gnu:25230] Signal: Segmentation fault (11)
+[san-gnu:25230] Signal code: Invalid permissions (2)
+[san-gnu:25230] Failing at address: 0x7fe2400dd790
+[san-gnu:25230] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe24b42c040]
+[san-gnu:25230] [ 1] ./secuencialMPI(+0xd3a)[0x55ac0a3f3d3a]
+[san-gnu:25230] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe24b40ebf7]
+[san-gnu:25230] [ 3] ./secuencialMPI(+0xa9a)[0x55ac0a3f3a9a]
+[san-gnu:25230] *** End of error message ***
+[san-gnu:25231] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f629b560040]
+[san-gnu:25231] [ 1] ./secuencialMPI(+0xd3a)[0x5606ce8f4d3a]
+[san-gnu:25231] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f629b542bf7]
+[san-gnu:25231] [ 3] ./secuencialMPI(+0xa9a)[0x5606ce8f4a9a]
+[san-gnu:25231] *** End of error message ***
+[san-gnu:25234] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe34c057040]
+[san-gnu:25234] [ 1] ./secuencialMPI(+0xd3a)[0x557dc03a5d3a]
+[san-gnu:25234] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe34c039bf7]
+[san-gnu:25234] [ 3] ./secuencialMPI(+0xa9a)[0x557dc03a5a9a]
+[san-gnu:25234] *** End of error message ***
+[san-gnu:25229] Signal: Segmentation fault (11)
+[san-gnu:25229] Signal code: Invalid permissions (2)
+[san-gnu:25229] Failing at address: 0x7fef281841d0
+[san-gnu:25229] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fef2cd94040]
+[san-gnu:25229] [ 1] ./secuencialMPI(+0xd3a)[0x55ecbdecfd3a]
+[san-gnu:25229] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fef2cd76bf7]
+[san-gnu:25229] [ 3] ./secuencialMPI(+0xa9a)[0x55ecbdecfa9a]
+[san-gnu:25229] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25250] *** Process received signal ***
+[san-gnu:25250] Signal: Segmentation fault (11)
+[san-gnu:25250] Signal code: Invalid permissions (2)
+[san-gnu:25250] Failing at address: 0x7faa7cf9c290
+[san-gnu:25252] *** Process received signal ***
+[san-gnu:25252] Signal: Segmentation fault (11)
+[san-gnu:25252] Signal code: Invalid permissions (2)
+[san-gnu:25252] Failing at address: 0x7fa6f31d4290
+[san-gnu:25255] *** Process received signal ***
+[san-gnu:25255] Signal: Segmentation fault (11)
+[san-gnu:25255] Signal code: Invalid permissions (2)
+[san-gnu:25255] Failing at address: 0x7f643cf9c310
+[san-gnu:25250] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7faa8eb49040]
+[san-gnu:25250] [ 1] ./secuencialMPI(+0xd3a)[0x560e72f32d3a]
+[san-gnu:25250] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7faa8eb2bbf7]
+[san-gnu:25250] [ 3] ./secuencialMPI(+0xa9a)[0x560e72f32a9a]
+[san-gnu:25250] *** End of error message ***
+[san-gnu:25252] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa704ce8040]
+[san-gnu:25252] [ 1] ./secuencialMPI(+0xd3a)[0x561ae8e02d3a]
+[san-gnu:25252] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa704ccabf7]
+[san-gnu:25252] [ 3] ./secuencialMPI(+0xa9a)[0x561ae8e02a9a]
+[san-gnu:25252] *** End of error message ***
+[san-gnu:25255] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f644ea5f040]
+[san-gnu:25255] [ 1] ./secuencialMPI(+0xd3a)[0x55899d17cd3a]
+[san-gnu:25255] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f644ea41bf7]
+[san-gnu:25255] [ 3] ./secuencialMPI(+0xa9a)[0x55899d17ca9a]
+[san-gnu:25255] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25272] *** Process received signal ***
+[san-gnu:25272] Signal: Segmentation fault (11)
+[san-gnu:25272] Signal code: Invalid permissions (2)
+[san-gnu:25272] Failing at address: 0x7f68629250d0
+[san-gnu:25273] *** Process received signal ***
+[san-gnu:25273] Signal: Segmentation fault (11)
+[san-gnu:25273] Signal code: Invalid permissions (2)
+[san-gnu:25273] Failing at address: 0x7fd41813b0d0
+[san-gnu:25273] [ 0] [san-gnu:25272] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f6874610040]
+[san-gnu:25272] [ 1] ./secuencialMPI(+0xd3a)[0x55959fbc6d3a]
+[san-gnu:25272] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f68745f2bf7]
+[san-gnu:25272] [ 3] ./secuencialMPI(+0xa9a)[0x55959fbc6a9a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd425cc6040[san-gnu:25272] *** End of error message ***
+]
+[san-gnu:25273] [ 1] ./secuencialMPI(+0xd3a)[0x558b2d73ad3a]
+[san-gnu:25273] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd425ca8bf7]
+[san-gnu:25273] [ 3] ./secuencialMPI(+0xa9a)[0x558b2d73aa9a]
+[san-gnu:25273] *** End of error message ***
+[san-gnu:25270] *** Process received signal ***
+[san-gnu:25270] Signal: Segmentation fault (11)
+[san-gnu:25270] Signal code: Invalid permissions (2)
+[san-gnu:25270] Failing at address: 0x7f94edee72b0
+[san-gnu:25270] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f94ffa16040]
+[san-gnu:25270] [ 1] ./secuencialMPI(+0xd3a)[0x562ea5768d3a]
+[san-gnu:25270] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f94ff9f8bf7]
+[san-gnu:25270] [ 3] ./secuencialMPI(+0xa9a)[0x562ea5768a9a]
+[san-gnu:25270] *** End of error message ***
+[san-gnu:25271] *** Process received signal ***
+[san-gnu:25271] Signal: Segmentation fault (11)
+[san-gnu:25271] Signal code: Invalid permissions (2)
+[san-gnu:25271] Failing at address: 0x7fc25e2f92b0
+[san-gnu:25271] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fc26febc040]
+[san-gnu:25271] [ 1] ./secuencialMPI(+0xd3a)[0x5644a8712d3a]
+[san-gnu:25271] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fc26fe9ebf7]
+[san-gnu:25271] [ 3] ./secuencialMPI(+0xa9a)[0x5644a8712a9a]
+[san-gnu:25271] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:25291] *** Process received signal ***
+[san-gnu:25291] Signal: Segmentation fault (11)
+[san-gnu:25291] Signal code: Invalid permissions (2)
+[san-gnu:25291] Failing at address: 0x7f187688ff10
+[san-gnu:25291] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f18935ff040]
+[san-gnu:25291] [ 1] ./secuencialMPI(+0xd3a)[0x5610000a3d3a]
+[san-gnu:25291] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f18935e1bf7]
+[san-gnu:25291] [ 3] ./secuencialMPI(+0xa9a)[0x5610000a3a9a]
+[san-gnu:25291] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
