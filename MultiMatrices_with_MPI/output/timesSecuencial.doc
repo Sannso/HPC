@@ -1,0 +1,1374 @@
+[san-gnu:12000] *** Process received signal ***
+[san-gnu:12000] Signal: Segmentation fault (11)
+[san-gnu:12000] Signal code: Address not mapped (1)
+[san-gnu:12000] Failing at address: (nil)
+[san-gnu:12001] *** Process received signal ***
+[san-gnu:12002] *** Process received signal ***
+[san-gnu:12002] Signal: Segmentation fault (11)
+[san-gnu:12002] Signal code: Address not mapped (1)
+[san-gnu:12002] Failing at address: (nil)
+[san-gnu:12005] *** Process received signal ***
+[san-gnu:12005] Signal: Segmentation fault (11)
+[san-gnu:12005] Signal code: Address not mapped (1)
+[san-gnu:12005] Failing at address: (nil)
+[san-gnu:12000] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f6147ed2040]
+[san-gnu:12000] [ 1] ./secuencialMPI(+0xe68)[0x55b37ab77e68]
+[san-gnu:12000] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f6147eb4bf7]
+[san-gnu:12000] [ 3] ./secuencialMPI(+0xb2a)[0x55b37ab77b2a]
+[san-gnu:12000] *** End of error message ***
+[san-gnu:12002] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7efef1fc8040]
+[san-gnu:12002] [ 1] ./secuencialMPI(+0xe68)[0x555cf0e6ee68]
+[san-gnu:12002] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7efef1faabf7]
+[san-gnu:12002] [ 3] ./secuencialMPI(+0xb2a)[0x555cf0e6eb2a]
+[san-gnu:12002] *** End of error message ***
+[san-gnu:12005] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd8b1953040]
+[san-gnu:12005] [ 1] ./secuencialMPI(+0xe68)[0x556c91f03e68]
+[san-gnu:12005] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd8b1935bf7]
+[san-gnu:12005] [ 3] ./secuencialMPI(+0xb2a)[0x556c91f03b2a]
+[san-gnu:12005] *** End of error message ***
+[san-gnu:12001] Signal: Segmentation fault (11)
+[san-gnu:12001] Signal code: Address not mapped (1)
+[san-gnu:12001] Failing at address: (nil)
+[san-gnu:12001] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3b6bb42040]
+[san-gnu:12001] [ 1] ./secuencialMPI(+0xe68)[0x55f3374e0e68]
+[san-gnu:12001] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3b6bb24bf7]
+[san-gnu:12001] [ 3] ./secuencialMPI(+0xb2a)[0x55f3374e0b2a]
+[san-gnu:12001] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12024] *** Process received signal ***
+[san-gnu:12025] *** Process received signal ***
+[san-gnu:12025] Signal: Segmentation fault (11)
+[san-gnu:12025] Signal code:  (128)
+[san-gnu:12025] Failing at address: (nil)
+[san-gnu:12026] *** Process received signal ***
+[san-gnu:12025] *** Process received signal ***
+[san-gnu:12025] Signal: Aborted (6)
+[san-gnu:12025] Signal code:  (-6)
+[san-gnu:12026] Signal: Segmentation fault (11)
+[san-gnu:12026] Signal code:  (128)
+[san-gnu:12026] Failing at address: (nil)
+[san-gnu:12024] Signal: Segmentation fault (11)
+[san-gnu:12024] Signal code:  (128)
+[san-gnu:12024] Failing at address: (nil)
+[san-gnu:12027] *** Process received signal ***
+[san-gnu:12027] Signal: Segmentation fault (11)
+[san-gnu:12027] Signal code: Address not mapped (1)
+[san-gnu:12027] Failing at address: 0x600060034
+[san-gnu:12027] *** Process received signal ***
+[san-gnu:12027] Signal: Aborted (6)
+[san-gnu:12027] Signal code:  (-6)
+[san-gnu:12026] *** Process received signal ***
+[san-gnu:12026] Signal: Aborted (6)
+[san-gnu:12026] Signal code:  (-6)
+[san-gnu:12024] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f172c059040]
+[san-gnu:12024] [ 1] ./secuencialMPI(+0xe68)[0x563ba651de68]
+[san-gnu:12024] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f172c03bbf7]
+[san-gnu:12024] [ 3] ./secuencialMPI(+0xb2a)[0x563ba651db2a]
+[san-gnu:12024] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12074] *** Process received signal ***
+[san-gnu:12074] Signal: Segmentation fault (11)
+[san-gnu:12074] Signal code:  (128)
+[san-gnu:12074] Failing at address: (nil)
+[san-gnu:12075] *** Process received signal ***
+[san-gnu:12076] *** Process received signal ***
+[san-gnu:12076] Signal: Segmentation fault (11)
+[san-gnu:12076] Signal code:  (128)
+[san-gnu:12076] Failing at address: (nil)
+[san-gnu:12077] *** Process received signal ***
+[san-gnu:12077] Signal: Segmentation fault (11)
+[san-gnu:12077] Signal code:  (128)
+[san-gnu:12077] Failing at address: (nil)
+[san-gnu:12074] [ 0] [san-gnu:12076] [ 0] [san-gnu:12077] *** Process received signal ***
+[san-gnu:12077] Signal: Aborted (6)
+[san-gnu:12077] Signal code:  (-6)
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f163af75040]
+[san-gnu:12074] [ 1] ./secuencialMPI(+0xe68)[0x555bdcd4ee68]
+[san-gnu:12074] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f163af57bf7]
+[san-gnu:12074] [ 3] ./secuencialMPI(+0xb2a)[0x555bdcd4eb2a]
+[san-gnu:12074] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f5710652040]
+[san-gnu:12076] [ 1] ./secuencialMPI(+0xe68)[0x5637943e3e68]
+[san-gnu:12076] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f5710634bf7]
+[san-gnu:12076] [ 3] ./secuencialMPI(+0xb2a)[0x5637943e3b2a]
+[san-gnu:12076] *** End of error message ***
+[san-gnu:12075] Signal: Segmentation fault (11)
+[san-gnu:12075] Signal code: Address not mapped (1)
+[san-gnu:12075] Failing at address: 0x600060034
+[san-gnu:12075] *** Process received signal ***
+[san-gnu:12075] Signal: Aborted (6)
+[san-gnu:12075] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12094] *** Process received signal ***
+[san-gnu:12094] Signal: Segmentation fault (11)
+[san-gnu:12094] Signal code: Address not mapped (1)
+[san-gnu:12094] Failing at address: (nil)
+[san-gnu:12096] *** Process received signal ***
+[san-gnu:12096] Signal: Segmentation fault (11)
+[san-gnu:12096] Signal code: Address not mapped (1)
+[san-gnu:12096] Failing at address: (nil)
+[san-gnu:12093] *** Process received signal ***
+[san-gnu:12093] Signal: Segmentation fault (11)
+[san-gnu:12093] Signal code: Address not mapped (1)
+[san-gnu:12093] Failing at address: (nil)
+[san-gnu:12094] [san-gnu:12093] [ 0] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7efc740ce040]
+[san-gnu:12093] [ 1] ./secuencialMPI(+0xe68)[0x55ba311d1e68]
+/lib/x86_64-linux-gnu/libc.so.6([san-gnu:12093] [ 2] +0x3f040)[0x7f3208812040/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7efc740b0bf7]
+[san-gnu:12093] [ 3] ./secuencialMPI(+0xb2a)[0x55ba311d1b2a]
+[san-gnu:12093] *** End of error message ***
+]
+[san-gnu:12094] [ 1] ./secuencialMPI(+0xe68)[0x55ba4095fe68]
+[san-gnu:12094] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f32087f4bf7]
+[san-gnu:12094] [ 3] ./secuencialMPI(+0xb2a)[0x55ba4095fb2a]
+[san-gnu:12094] *** End of error message ***
+[san-gnu:12095] *** Process received signal ***
+[san-gnu:12095] Signal: Segmentation fault (11)
+[san-gnu:12095] Signal code: Address not mapped (1)
+[san-gnu:12095] Failing at address: (nil)
+[san-gnu:12095] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f560521d040]
+[san-gnu:12095] [ 1] ./secuencialMPI(+0xe68)[0x55b80ae0be68]
+[san-gnu:12095] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f56051ffbf7]
+[san-gnu:12095] [ 3] ./secuencialMPI(+0xb2a)[0x55b80ae0bb2a]
+[san-gnu:12095] *** End of error message ***
+[san-gnu:12096] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fb715159040]
+[san-gnu:12096] [ 1] ./secuencialMPI(+0xe68)[0x55c09a8f7e68]
+[san-gnu:12096] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb71513bbf7]
+[san-gnu:12096] [ 3] ./secuencialMPI(+0xb2a)[0x55c09a8f7b2a]
+[san-gnu:12096] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12114] *** Process received signal ***
+[san-gnu:12114] Signal: Segmentation fault (11)
+[san-gnu:12114] Signal code:  (128)
+[san-gnu:12114] Failing at address: (nil)
+[san-gnu:12115] *** Process received signal ***
+[san-gnu:12115] Signal: Segmentation fault (11)
+[san-gnu:12115] Signal code:  (128)
+[san-gnu:12115] Failing at address: (nil)
+[san-gnu:12116] *** Process received signal ***
+[san-gnu:12116] Signal: Segmentation fault (11)
+[san-gnu:12116] Signal code:  (128)
+[san-gnu:12116] Failing at address: (nil)
+[san-gnu:12114] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa13cc18040]
+[san-gnu:12114] [ 1] ./secuencialMPI(+0xe68)[0x562a043e6e68]
+[san-gnu:12114] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa13cbfabf7]
+[san-gnu:12114] [ 3] ./secuencialMPI(+0xb2a)[0x562a043e6b2a]
+[san-gnu:12114] *** End of error message ***
+[san-gnu:12116] *** Process received signal ***
+[san-gnu:12116] Signal: Aborted (6)
+[san-gnu:12116] Signal code:  (-6)
+[san-gnu:12115] *** Process received signal ***
+[san-gnu:12115] Signal: Aborted (6)
+[san-gnu:12115] Signal code:  (-6)
+[san-gnu:12117] *** Process received signal ***
+[san-gnu:12117] Signal: Segmentation fault (11)
+[san-gnu:12117] Signal code:  (128)
+[san-gnu:12117] Failing at address: (nil)
+[san-gnu:12117] *** Process received signal ***
+[san-gnu:12117] Signal: Aborted (6)
+[san-gnu:12117] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12158] *** Process received signal ***
+[san-gnu:12158] Signal: Segmentation fault (11)
+[san-gnu:12158] Signal code:  (128)
+[san-gnu:12158] Failing at address: (nil)
+[san-gnu:12159] *** Process received signal ***
+[san-gnu:12159] Signal: Segmentation fault (11)
+[san-gnu:12159] Signal code:  (128)
+[san-gnu:12159] Failing at address: (nil)
+[san-gnu:12160] *** Process received signal ***
+[san-gnu:12160] Signal: Segmentation fault (11)
+[san-gnu:12160] Signal code:  (128)
+[san-gnu:12160] Failing at address: (nil)
+[san-gnu:12158] [ 0] [san-gnu:12160] *** Process received signal ***
+[san-gnu:12160] Signal: Aborted (6)
+[san-gnu:12160] Signal code:  (-6)
+[san-gnu:12159] *** Process received signal ***
+[san-gnu:12159] Signal: Aborted (6)
+[san-gnu:12159] Signal code:  (-6)
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3622dfd040]
+[san-gnu:12158] [ 1] ./secuencialMPI(+0xe68)[0x560623283e68]
+[san-gnu:12158] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3622ddfbf7]
+[san-gnu:12158] [ 3] ./secuencialMPI(+0xb2a)[0x560623283b2a]
+[san-gnu:12158] *** End of error message ***
+[san-gnu:12161] *** Process received signal ***
+[san-gnu:12161] Signal: Segmentation fault (11)
+[san-gnu:12161] Signal code:  (128)
+[san-gnu:12161] Failing at address: (nil)
+[san-gnu:12161] *** Process received signal ***
+[san-gnu:12161] Signal: Aborted (6)
+[san-gnu:12161] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12176] *** Process received signal ***
+[san-gnu:12176] Signal: Segmentation fault (11)
+[san-gnu:12176] Signal code: Address not mapped (1)
+[san-gnu:12176] Failing at address: (nil)
+[san-gnu:12178] *** Process received signal ***
+[san-gnu:12179] *** Process received signal ***
+[san-gnu:12179] Signal: Segmentation fault (11)
+[san-gnu:12179] Signal code: Address not mapped (1)
+[san-gnu:12179] Failing at address: (nil)
+[san-gnu:12177] *** Process received signal ***
+[san-gnu:12177] Signal: Segmentation fault (11)
+[san-gnu:12177] Signal code: Address not mapped (1)
+[san-gnu:12177] Failing at address: (nil)
+[san-gnu:12177] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fbba4232040]
+[san-gnu:12177] [ 1] ./secuencialMPI(+0xe68)[0x557020f0ee68]
+[san-gnu:12177] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fbba4214bf7]
+[san-gnu:12177] [ 3] ./secuencialMPI(+0xb2a)[0x557020f0eb2a]
+[san-gnu:12177] *** End of error message ***
+[san-gnu:12176] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff4da2c8040]
+[san-gnu:12176] [ 1] ./secuencialMPI(+0xe68)[0x557c6c529e68]
+[san-gnu:12176] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff4da2aabf7]
+[san-gnu:12176] [ 3] ./secuencialMPI(+0xb2a)[0x557c6c529b2a]
+[san-gnu:12176] *** End of error message ***
+[san-gnu:12178] Signal: Segmentation fault (11)
+[san-gnu:12178] Signal code: Address not mapped (1)
+[san-gnu:12178] Failing at address: (nil)
+[san-gnu:12179] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fbb750d9040]
+[san-gnu:12179] [ 1] ./secuencialMPI(+0xe68)[0x560a5cf11e68]
+[san-gnu:12179] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fbb750bbbf7]
+[san-gnu:12179] [ 3] ./secuencialMPI(+0xb2a)[0x560a5cf11b2a]
+[san-gnu:12179] *** End of error message ***
+[san-gnu:12178] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fdcee1fb040]
+[san-gnu:12178] [ 1] ./secuencialMPI(+0xe68)[0x55e129b6ee68]
+[san-gnu:12178] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fdcee1ddbf7]
+[san-gnu:12178] [ 3] ./secuencialMPI(+0xb2a)[0x55e129b6eb2a]
+[san-gnu:12178] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12200] *** Process received signal ***
+[san-gnu:12200] Signal: Segmentation fault (11)
+[san-gnu:12200] Signal code:  (128)
+[san-gnu:12200] Failing at address: (nil)
+[san-gnu:12201] *** Process received signal ***
+[san-gnu:12201] Signal: Segmentation fault (11)
+[san-gnu:12201] Signal code:  (128)
+[san-gnu:12201] Failing at address: (nil)
+[san-gnu:12202] *** Process received signal ***
+[san-gnu:12203] *** Process received signal ***
+[san-gnu:12203] Signal: Segmentation fault (11)
+[san-gnu:12203] Signal code:  (128)
+[san-gnu:12203] Failing at address: (nil)
+[san-gnu:12200] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2eb4289040]
+[san-gnu:12200] [ 1] ./secuencialMPI(+0xe68)[0x555f33a9de68]
+[san-gnu:12200] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2eb426bbf7]
+[san-gnu:12200] [ 3] ./secuencialMPI(+0xb2a)[0x555f33a9db2a]
+[san-gnu:12200] *** End of error message ***
+[san-gnu:12201] *** Process received signal ***
+[san-gnu:12201] Signal: Aborted (6)
+[san-gnu:12201] Signal code:  (-6)
+[san-gnu:12202] Signal: Segmentation fault (11)
+[san-gnu:12202] Signal code:  (128)
+[san-gnu:12202] Failing at address: (nil)
+[san-gnu:12202] *** Process received signal ***
+[san-gnu:12202] Signal: Aborted (6)
+[san-gnu:12202] Signal code:  (-6)
+[san-gnu:12203] *** Process received signal ***
+[san-gnu:12203] Signal: Aborted (6)
+[san-gnu:12203] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12230] *** Process received signal ***
+[san-gnu:12230] Signal: Segmentation fault (11)
+[san-gnu:12230] Signal code:  (128)
+[san-gnu:12230] Failing at address: (nil)
+[san-gnu:12236] *** Process received signal ***
+[san-gnu:12236] Signal: Segmentation fault (11)
+[san-gnu:12236] Signal code:  (128)
+[san-gnu:12236] Failing at address: (nil)
+[san-gnu:12229] *** Process received signal ***
+[san-gnu:12229] Signal: Segmentation fault (11)
+[san-gnu:12229] Signal code:  (128)
+[san-gnu:12229] Failing at address: (nil)
+[san-gnu:12236] *** Process received signal ***
+[san-gnu:12236] Signal: Aborted (6)
+[san-gnu:12236] Signal code:  (-6)
+[san-gnu:12230] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fed99993040]
+[san-gnu:12230] [ 1] ./secuencialMPI(+0xe68)[0x56042b095e68]
+[san-gnu:12230] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fed99975bf7]
+[san-gnu:12230] [ 3] ./secuencialMPI(+0xb2a)[0x56042b095b2a]
+[san-gnu:12230] *** End of error message ***
+[san-gnu:12229] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f9164cf4040]
+[san-gnu:12229] [ 1] ./secuencialMPI(+0xe68)[0x55955495ae68]
+[san-gnu:12229] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9164cd6bf7]
+[san-gnu:12229] [ 3] ./secuencialMPI(+0xb2a)[0x55955495ab2a]
+[san-gnu:12229] *** End of error message ***
+[san-gnu:12231] *** Process received signal ***
+[san-gnu:12231] Signal: Segmentation fault (11)
+[san-gnu:12231] Signal code:  (128)
+[san-gnu:12231] Failing at address: (nil)
+[san-gnu:12231] *** Process received signal ***
+[san-gnu:12231] Signal: Aborted (6)
+[san-gnu:12231] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12248] *** Process received signal ***
+[san-gnu:12248] Signal: Segmentation fault (11)
+[san-gnu:12248] Signal code: Address not mapped (1)
+[san-gnu:12248] Failing at address: (nil)
+[san-gnu:12249] *** Process received signal ***
+[san-gnu:12249] Signal: Segmentation fault (11)
+[san-gnu:12249] Signal code: Address not mapped (1)
+[san-gnu:12249] Failing at address: (nil)
+[san-gnu:12251] *** Process received signal ***
+[san-gnu:12251] Signal: Segmentation fault (11)
+[san-gnu:12251] Signal code: Address not mapped (1)
+[san-gnu:12251] Failing at address: (nil)
+[san-gnu:12248] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f83dd6ea040]
+[san-gnu:12248] [ 1] ./secuencialMPI(+0xe68)[0x561058e98e68]
+[san-gnu:12248] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f83dd6ccbf7]
+[san-gnu:12248] [ 3] ./secuencialMPI(+0xb2a)[0x561058e98b2a]
+[san-gnu:12248] *** End of error message ***
+[san-gnu:12250] *** Process received signal ***
+[san-gnu:12250] Signal: Segmentation fault (11)
+[san-gnu:12250] Signal code: Address not mapped (1)
+[san-gnu:12250] Failing at address: (nil)
+[san-gnu:12250] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1a33eb6040]
+[san-gnu:12250] [ 1] ./secuencialMPI(+0xe68)[0x564a0fd38e68]
+[san-gnu:12250] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1a33e98bf7]
+[san-gnu:12250] [ 3] ./secuencialMPI(+0xb2a)[0x564a0fd38b2a]
+[san-gnu:12250] *** End of error message ***
+[san-gnu:12249] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f8729083040]
+[san-gnu:12249] [ 1] ./secuencialMPI(+0xe68)[0x55eab1a4fe68]
+[san-gnu:12249] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8729065bf7]
+[san-gnu:12249] [ 3] ./secuencialMPI(+0xb2a)[0x55eab1a4fb2a]
+[san-gnu:12249] *** End of error message ***
+[san-gnu:12251] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3f6e973040]
+[san-gnu:12251] [ 1] ./secuencialMPI(+0xe68)[0x5600ab03be68]
+[san-gnu:12251] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3f6e955bf7]
+[san-gnu:12251] [ 3] ./secuencialMPI(+0xb2a)[0x5600ab03bb2a]
+[san-gnu:12251] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12276] *** Process received signal ***
+[san-gnu:12276] Signal: Segmentation fault (11)
+[san-gnu:12276] Signal code:  (128)
+[san-gnu:12276] Failing at address: (nil)
+[san-gnu:12278] *** Process received signal ***
+[san-gnu:12278] Signal: Segmentation fault (11)
+[san-gnu:12278] Signal code:  (128)
+[san-gnu:12278] Failing at address: (nil)
+[san-gnu:12280] *** Process received signal ***
+[san-gnu:12276] *** Process received signal ***
+[san-gnu:12276] Signal: Aborted (6)
+[san-gnu:12276] Signal code:  (-6)
+[san-gnu:12278] *** Process received signal ***
+[san-gnu:12278] Signal: Aborted (6)
+[san-gnu:12278] Signal code:  (-6)
+[san-gnu:12275] *** Process received signal ***
+[san-gnu:12275] Signal: Segmentation fault (11)
+[san-gnu:12275] Signal code:  (128)
+[san-gnu:12275] Failing at address: (nil)
+[san-gnu:12275] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f5c96f2a040]
+[san-gnu:12275] [ 1] ./secuencialMPI(+0xe68)[0x555b47732e68]
+[san-gnu:12275] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f5c96f0cbf7]
+[san-gnu:12275] [ 3] ./secuencialMPI(+0xb2a)[0x555b47732b2a]
+[san-gnu:12275] *** End of error message ***
+[san-gnu:12280] Signal: Segmentation fault (11)
+[san-gnu:12280] Signal code:  (128)
+[san-gnu:12280] Failing at address: (nil)
+[san-gnu:12280] *** Process received signal ***
+[san-gnu:12280] Signal: Aborted (6)
+[san-gnu:12280] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12296] *** Process received signal ***
+[san-gnu:12296] Signal: Segmentation fault (11)
+[san-gnu:12296] Signal code:  (128)
+[san-gnu:12296] Failing at address: (nil)
+[san-gnu:12297] *** Process received signal ***
+[san-gnu:12298] *** Process received signal ***
+[san-gnu:12298] Signal: Segmentation fault (11)
+[san-gnu:12298] Signal code:  (128)
+[san-gnu:12298] Failing at address: (nil)
+[san-gnu:12302] *** Process received signal ***
+[san-gnu:12302] Signal: Segmentation fault (11)
+[san-gnu:12302] Signal code:  (128)
+[san-gnu:12302] Failing at address: (nil)
+[san-gnu:12298] [ 0] [san-gnu:12302] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f58b79d7040]
+[san-gnu:12298] [ 1] ./secuencialMPI(+0x/lib/x86_64-linux-gnu/libc.so.6(+0xe68)[0x56274ba3ce68]
+[san-gnu:12298] [ 2] 3f040)[0x7fecb80c8040]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f58b79b9bf7]
+[san-gnu:12298] [ 3] ./secuencialMPI(+0xb2a)[0x56274ba3cb2a]
+[san-gnu:12298] *** End of error message ***
+[san-gnu:12302] [ 1] ./secuencialMPI(+0xe68)[0x56467d426e68]
+[san-gnu:12302] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fecb80aabf7]
+[san-gnu:12302] [ 3] ./secuencialMPI(+0xb2a)[0x56467d426b2a]
+[san-gnu:12302] *** End of error message ***
+[san-gnu:12297] Signal: Segmentation fault (11)
+[san-gnu:12297] Signal code:  (128)
+[san-gnu:12297] Failing at address: (nil)
+[san-gnu:12297] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd77adf3040]
+[san-gnu:12297] [ 1] ./secuencialMPI(+0xe68)[0x55cba8f5de68]
+[san-gnu:12297] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd77add5bf7]
+[san-gnu:12297] [ 3] ./secuencialMPI(+0xb2a)[0x55cba8f5db2a]
+[san-gnu:12297] *** End of error message ***
+[san-gnu:12296] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f7e0ea21040]
+[san-gnu:12296] [ 1] ./secuencialMPI(+0xe68)[0x55a680a20e68]
+[san-gnu:12296] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7e0ea03bf7]
+[san-gnu:12296] [ 3] ./secuencialMPI(+0xb2a)[0x55a680a20b2a]
+[san-gnu:12296] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12317] *** Process received signal ***
+[san-gnu:12317] Signal: Segmentation fault (11)
+[san-gnu:12317] Signal code: Address not mapped (1)
+[san-gnu:12317] Failing at address: (nil)
+[san-gnu:12319] *** Process received signal ***
+[san-gnu:12320] *** Process received signal ***
+[san-gnu:12320] Signal: Segmentation fault (11)
+[san-gnu:12320] Signal code: Address not mapped (1)
+[san-gnu:12320] Failing at address: (nil)
+[san-gnu:12318] *** Process received signal ***
+[san-gnu:12318] Signal: Segmentation fault (11)
+[san-gnu:12318] Signal code: Address not mapped (1)
+[san-gnu:12318] Failing at address: (nil)
+[san-gnu:12320] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f33e0ce9040]
+[san-gnu:12320] [ 1] ./secuencialMPI(+0xe68)[0x55c052610e68]
+[san-gnu:12320] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f33e0ccbbf7]
+[san-gnu:12320] [ 3] ./secuencialMPI(+0xb2a)[0x55c052610b2a]
+[san-gnu:12320] *** End of error message ***
+[san-gnu:12317] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff0a8a4f040]
+[san-gnu:12317] [ 1] ./secuencialMPI(+0xe68)[0x560fdbc62e68]
+[san-gnu:12317] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff0a8a31bf7]
+[san-gnu:12317] [ 3] ./secuencialMPI(+0xb2a)[0x560fdbc62b2a]
+[san-gnu:12317] *** End of error message ***
+[san-gnu:12318] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f59ccfd0040]
+[san-gnu:12318] [ 1] ./secuencialMPI(+0xe68)[0x55bb55659e68]
+[san-gnu:12318] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f59ccfb2bf7]
+[san-gnu:12318] [ 3] ./secuencialMPI(+0xb2a)[0x55bb55659b2a]
+[san-gnu:12318] *** End of error message ***
+[san-gnu:12319] Signal: Segmentation fault (11)
+[san-gnu:12319] Signal code: Address not mapped (1)
+[san-gnu:12319] Failing at address: (nil)
+[san-gnu:12319] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f33c920e040]
+[san-gnu:12319] [ 1] ./secuencialMPI(+0xe68)[0x55ef39677e68]
+[san-gnu:12319] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f33c91f0bf7]
+[san-gnu:12319] [ 3] ./secuencialMPI(+0xb2a)[0x55ef39677b2a]
+[san-gnu:12319] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12338] *** Process received signal ***
+[san-gnu:12338] Signal: Segmentation fault (11)
+[san-gnu:12338] Signal code:  (128)
+[san-gnu:12338] Failing at address: (nil)
+[san-gnu:12339] *** Process received signal ***
+[san-gnu:12339] Signal: Segmentation fault (11)
+[san-gnu:12339] Signal code:  (128)
+[san-gnu:12339] Failing at address: (nil)
+[san-gnu:12340] *** Process received signal ***
+[san-gnu:12340] Signal: Segmentation fault (11)
+[san-gnu:12340] Signal code:  (128)
+[san-gnu:12340] Failing at address: (nil)
+[san-gnu:12339] [ 0] [san-gnu:12340] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff582e5e040]
+[san-gnu:12340] [ 1] ./secuencialMPI(+0xe68)[0x558d4d003e68]
+/lib/x86_64-linux-gnu/libc.so.6[san-gnu:12340] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff582e40bf7]
+[san-gnu:12340] [ 3] ./secuencialMPI(+0xb2a)[0x558d4d003b2a]
+[san-gnu:12340] *** End of error message ***
+(+0x[san-gnu:12341] *** Process received signal ***
+[san-gnu:12341] Signal: Segmentation fault (11)
+[san-gnu:12341] Signal code:  (128)
+[san-gnu:12341] Failing at address: (nil)
+3f040[san-gnu:12341] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1f23f2f040]
+[san-gnu:12341] [ 1] ./secuencialMPI(+0xe68)[0x557f18d68e68]
+[san-gnu:12341] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1f23f11bf7]
+[san-gnu:12341] [ 3] ./secuencialMPI(+0xb2a)[0x557f18d68b2a]
+[san-gnu:12341] *** End of error message ***
+)[0x7facb6660040]
+[san-gnu:12339] [ 1] ./secuencialMPI(+0xe68)[0x55fbf8230e68]
+[san-gnu:12339] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7facb6642bf7]
+[san-gnu:12339] [ 3] ./secuencialMPI(+0xb2a)[0x55fbf8230b2a]
+[san-gnu:12339] *** End of error message ***
+[san-gnu:12338] *** Process received signal ***
+[san-gnu:12338] Signal: Aborted (6)
+[san-gnu:12338] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12376] *** Process received signal ***
+[san-gnu:12376] Signal: Segmentation fault (11)
+[san-gnu:12376] Signal code:  (128)
+[san-gnu:12376] Failing at address: (nil)
+[san-gnu:12374] *** Process received signal ***
+[san-gnu:12374] Signal: Segmentation fault (11)
+[san-gnu:12374] Signal code:  (128)
+[san-gnu:12374] Failing at address: (nil)
+[san-gnu:12375] *** Process received signal ***
+[san-gnu:12375] Signal: Segmentation fault (11)
+[san-gnu:12375] Signal code:  (128)
+[san-gnu:12375] Failing at address: (nil)
+[san-gnu:12375] *** Process received signal ***
+[san-gnu:12375] Signal: Aborted (6)
+[san-gnu:12375] Signal code:  (-6)
+[san-gnu:12376] *** Process received signal ***
+[san-gnu:12376] Signal: Aborted (6)
+[san-gnu:12376] Signal code:  (-6)
+[san-gnu:12373] *** Process received signal ***
+[san-gnu:12373] Signal: Segmentation fault (11)
+[san-gnu:12373] Signal code:  (128)
+[san-gnu:12373] Failing at address: (nil)
+[san-gnu:12373] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fc9acb7f040]
+[san-gnu:12373] [ 1] ./secuencialMPI(+0xe68)[0x5566701fee68]
+[san-gnu:12373] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fc9acb61bf7]
+[san-gnu:12373] [ 3] ./secuencialMPI(+0xb2a)[0x5566701feb2a]
+[san-gnu:12373] *** End of error message ***
+[san-gnu:12374] *** Process received signal ***
+[san-gnu:12374] Signal: Aborted (6)
+[san-gnu:12374] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12401] *** Process received signal ***
+[san-gnu:12401] Signal: Segmentation fault (11)
+[san-gnu:12401] Signal code: Address not mapped (1)
+[san-gnu:12401] Failing at address: (nil)
+[san-gnu:12402] *** Process received signal ***
+[san-gnu:12405] *** Process received signal ***
+[san-gnu:12405] Signal: Segmentation fault (11)
+[san-gnu:12405] Signal code: Address not mapped (1)
+[san-gnu:12405] Failing at address: (nil)
+[san-gnu:12406] *** Process received signal ***
+[san-gnu:12406] Signal: Segmentation fault (11)
+[san-gnu:12406] Signal code: Address not mapped (1)
+[san-gnu:12406] Failing at address: (nil)
+[san-gnu:12401] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f00e1c19040]
+[san-gnu:12401] [ 1] ./secuencialMPI(+0xe68)[san-gnu:12405] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f26ce85c040]
+[san-gnu:12405] [ 1] ./secuencialMPI(+0xe68)[0x5591a6209e68]
+[san-gnu:12405] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f26ce83ebf7]
+[san-gnu:12405] [ 3] ./secuencialMPI(+0xb2a)[0x5591a6209b2a]
+[san-gnu:12405] *** End of error message ***
+[san-gnu:12406] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f2b39c54040]
+[san-gnu:12406] [ 1] ./secuencialMPI(+0xe68)[0x563446e65e68]
+[san-gnu:12406] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f2b39c36bf7]
+[san-gnu:12406] [ 3] ./secuencialMPI(+0xb2a)[0x563446e65b2a]
+[san-gnu:12406] *** End of error message ***
+[0x55d5a63d9e68]
+[san-gnu:12401] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f00e1bfbbf7]
+[san-gnu:12401] [ 3] ./secuencialMPI(+0xb2a)[0x55d5a63d9b2a]
+[san-gnu:12401] *** End of error message ***
+[san-gnu:12402] Signal: Segmentation fault (11)
+[san-gnu:12402] Signal code: Address not mapped (1)
+[san-gnu:12402] Failing at address: (nil)
+[san-gnu:12402] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fadd77dd040]
+[san-gnu:12402] [ 1] ./secuencialMPI(+0xe68)[0x55f7d2870e68]
+[san-gnu:12402] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fadd77bfbf7]
+[san-gnu:12402] [ 3] ./secuencialMPI(+0xb2a)[0x55f7d2870b2a]
+[san-gnu:12402] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12424] *** Process received signal ***
+[san-gnu:12424] Signal: Segmentation fault (11)
+[san-gnu:12424] Signal code:  (128)
+[san-gnu:12424] Failing at address: (nil)
+[san-gnu:12425] *** Process received signal ***
+[san-gnu:12423] *** Process received signal ***
+[san-gnu:12423] Signal: Segmentation fault (11)
+[san-gnu:12423] Signal code:  (128)
+[san-gnu:12423] Failing at address: (nil)
+[san-gnu:12423] *** Process received signal ***
+[san-gnu:12423] Signal: Aborted (6)
+[san-gnu:12423] Signal code:  (-6)
+[san-gnu:12424] *** Process received signal ***
+[san-gnu:12424] Signal: Aborted (6)
+[san-gnu:12424] Signal code:  (-6)
+[san-gnu:12425] Signal: Segmentation fault (11)
+[san-gnu:12425] Signal code:  (128)
+[san-gnu:12425] Failing at address: (nil)
+[san-gnu:12425] *** Process received signal ***
+[san-gnu:12425] Signal: Aborted (6)
+[san-gnu:12425] Signal code:  (-6)
+[san-gnu:12422] *** Process received signal ***
+[san-gnu:12422] Signal: Segmentation fault (11)
+[san-gnu:12422] Signal code:  (128)
+[san-gnu:12422] Failing at address: (nil)
+[san-gnu:12422] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f0ccd766040]
+[san-gnu:12422] [ 1] ./secuencialMPI(+0xe68)[0x5645597abe68]
+[san-gnu:12422] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f0ccd748bf7]
+[san-gnu:12422] [ 3] ./secuencialMPI(+0xb2a)[0x5645597abb2a]
+[san-gnu:12422] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12443] *** Process received signal ***
+[san-gnu:12444] *** Process received signal ***
+[san-gnu:12444] Signal: Segmentation fault (11)
+[san-gnu:12444] Signal code:  (128)
+[san-gnu:12444] Failing at address: (nil)
+[san-gnu:12445] *** Process received signal ***
+[san-gnu:12445] Signal: Segmentation fault (11)
+[san-gnu:12445] Signal code:  (128)
+[san-gnu:12445] Failing at address: (nil)
+[san-gnu:12446] *** Process received signal ***
+[san-gnu:12446] Signal: Segmentation fault (11)
+[san-gnu:12446] Signal code:  (128)
+[san-gnu:12446] Failing at address: (nil)
+[san-gnu:12446] *** Process received signal ***
+[san-gnu:12446] Signal: Aborted (6)
+[san-gnu:12446] Signal code:  (-6)
+[san-gnu:12444] *** Process received signal ***
+[san-gnu:12444] Signal: Aborted (6)
+[san-gnu:12444] Signal code:  (-6)
+[san-gnu:12445] *** Process received signal ***
+[san-gnu:12445] Signal: Aborted (6)
+[san-gnu:12445] Signal code:  (-6)
+[san-gnu:12443] Signal: Segmentation fault (11)
+[san-gnu:12443] Signal code:  (128)
+[san-gnu:12443] Failing at address: (nil)
+[san-gnu:12443] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f86c8578040]
+[san-gnu:12443] [ 1] ./secuencialMPI(+0xe68)[0x5626b6a93e68]
+[san-gnu:12443] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f86c855abf7]
+[san-gnu:12443] [ 3] ./secuencialMPI(+0xb2a)[0x5626b6a93b2a]
+[san-gnu:12443] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12475] *** Process received signal ***
+[san-gnu:12475] Signal: Segmentation fault (11)
+[san-gnu:12475] Signal code: Address not mapped (1)
+[san-gnu:12475] Failing at address: (nil)
+[san-gnu:12476] *** Process received signal ***
+[san-gnu:12477] *** Process received signal ***
+[san-gnu:12477] Signal: Segmentation fault (11)
+[san-gnu:12477] Signal code: Address not mapped (1)
+[san-gnu:12477] Failing at address: (nil)
+[san-gnu:12478] *** Process received signal ***
+[san-gnu:12478] Signal: Segmentation fault (11)
+[san-gnu:12478] Signal code: Address not mapped (1)
+[san-gnu:12478] Failing at address: (nil)
+[san-gnu:12477] [ 0] [san-gnu:12478] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe6af91b040]
+[san-gnu:12477] [ 1] ./secuencialMPI(+0xe68)[0x56001ea3de68]
+[san-gnu:12477] [ 2] [san-gnu:12476] Signal: Segmentation fault (11)
+[san-gnu:12476] Signal code: Address not mapped (1)
+[san-gnu:12476] Failing at address: (nil)
+/lib/x86_64-linux-gnu/libc.so.6(/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe6af8fdbf7]
+[san-gnu:12477] [ 3] ./secuencialMPI(+0xb2a)[0x56001ea3db2a]
++0x3f040[san-gnu:12477] *** End of error message ***
+)[0x7f0ce9019040]
+[san-gnu:12478] [ 1] ./secuencialMPI(+0xe68)[0x561bd31dde68]
+[san-gnu:12478] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f0ce8ffbbf7]
+[san-gnu:12478] [ 3] ./secuencialMPI(+0xb2a)[0x561bd31ddb2a]
+[san-gnu:12478] *** End of error message ***
+[san-gnu:12476] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f177b427040]
+[san-gnu:12476] [ 1] ./secuencialMPI(+0xe68)[0x55f7505aee68]
+[san-gnu:12476] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f177b409bf7]
+[san-gnu:12476] [ 3] ./secuencialMPI(+0xb2a)[0x55f7505aeb2a]
+[san-gnu:12476] *** End of error message ***
+[san-gnu:12475] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f0a9d607040]
+[san-gnu:12475] [ 1] ./secuencialMPI(+0xe68)[0x55f98c94de68]
+[san-gnu:12475] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f0a9d5e9bf7]
+[san-gnu:12475] [ 3] ./secuencialMPI(+0xb2a)[0x55f98c94db2a]
+[san-gnu:12475] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12505] *** Process received signal ***
+[san-gnu:12505] Signal: Segmentation fault (11)
+[san-gnu:12505] Signal code:  (128)
+[san-gnu:12505] Failing at address: (nil)
+[san-gnu:12507] *** Process received signal ***
+[san-gnu:12507] Signal: Segmentation fault (11)
+[san-gnu:12507] Signal code:  (128)
+[san-gnu:12507] Failing at address: (nil)
+[san-gnu:12508] *** Process received signal ***
+[san-gnu:12508] Signal: Segmentation fault (11)
+[san-gnu:12508] Signal code:  (128)
+[san-gnu:12508] Failing at address: (nil)
+[san-gnu:12505] [ 0] [san-gnu:12508] *** Process received signal ***
+[san-gnu:12508] Signal: Aborted (6)
+[san-gnu:12508] Signal code:  (-6)
+[san-gnu:12507] *** Process received signal ***
+[san-gnu:12507] Signal: Aborted (6)
+[san-gnu:12507] Signal code:  (-6)
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f952a659040]
+[san-gnu:12505] [ 1] ./secuencialMPI(+0xe68)[0x5588537d2e68]
+[san-gnu:12505] [ 2] [san-gnu:12506] *** Process received signal ***
+[san-gnu:12506] Signal: Segmentation fault (11)
+[san-gnu:12506] Signal code:  (128)
+[san-gnu:12506] Failing at address: (nil)
+[san-gnu:12506] *** Process received signal ***
+[san-gnu:12506] Signal: Aborted (6)
+[san-gnu:12506] Signal code:  (-6)
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f952a63bbf7]
+[san-gnu:12505] [ 3] ./secuencialMPI(+0xb2a)[0x5588537d2b2a]
+[san-gnu:12505] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12526] *** Process received signal ***
+[san-gnu:12527] *** Process received signal ***
+[san-gnu:12527] Signal: Segmentation fault (11)
+[san-gnu:12527] Signal code:  (128)
+[san-gnu:12527] Failing at address: (nil)
+[san-gnu:12528] *** Process received signal ***
+[san-gnu:12528] Signal: Segmentation fault (11)
+[san-gnu:12528] Signal code:  (128)
+[san-gnu:12528] Failing at address: (nil)
+[san-gnu:12529] *** Process received signal ***
+[san-gnu:12529] Signal: Segmentation fault (11)
+[san-gnu:12529] Signal code:  (128)
+[san-gnu:12529] Failing at address: (nil)
+[san-gnu:12526] Signal: Segmentation fault (11)
+[san-gnu:12526] Signal code:  (128)
+[san-gnu:12526] Failing at address: (nil)
+[san-gnu:12527] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f778a82f040]
+[san-gnu:12527] [ 1] ./secuencialMPI(+0xe68)[0x5592aa4e5e68]
+[san-gnu:12527] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f778a811bf7]
+[san-gnu:12527] [ 3] ./secuencialMPI(+0xb2a)[0x5592aa4e5b2a]
+[san-gnu:12527] *** End of error message ***
+[san-gnu:12528] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f67927eb040]
+[san-gnu:12528] [ 1] ./secuencialMPI(+0xe68)[0x55aa980d5e68]
+[san-gnu:12528] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f67927cdbf7]
+[san-gnu:12528] [ 3] ./secuencialMPI(+0xb2a)[0x55aa980d5b2a]
+[san-gnu:12528] *** End of error message ***
+[san-gnu:12526] *** Process received signal ***
+[san-gnu:12526] Signal: Aborted (6)
+[san-gnu:12526] Signal code:  (-6)
+[san-gnu:12529] *** Process received signal ***
+[san-gnu:12529] Signal: Aborted (6)
+[san-gnu:12529] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12545] *** Process received signal ***
+[san-gnu:12546] *** Process received signal ***
+[san-gnu:12546] Signal: Segmentation fault (11)
+[san-gnu:12546] Signal code: Address not mapped (1)
+[san-gnu:12546] Failing at address: (nil)
+[san-gnu:12547] *** Process received signal ***
+[san-gnu:12547] Signal: Segmentation fault (11)
+[san-gnu:12547] Signal code: Address not mapped (1)
+[san-gnu:12547] Failing at address: (nil)
+[san-gnu:12548] *** Process received signal ***
+[san-gnu:12545] Signal: Segmentation fault (11)
+[san-gnu:12545] Signal code: Address not mapped (1)
+[san-gnu:12545] Failing at address: (nil)
+[san-gnu:12547] [ 0] [san-gnu:12545] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f92edfd0040]
+[san-gnu:12547] [ 1] ./secuencialMPI(+0xe68)[0x55ed8ea4ce68]
+[san-gnu:12547] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f92edfb2bf7]
+[san-gnu:12547] [ 3] ./secuencialMPI(+0xb2a)[0x55ed8ea4cb2a]
+)[0x7f21d8d1c040]
+[san-gnu:12547] *** End of error message ***
+[san-gnu:12545] [ 1] ./secuencialMPI(+0xe68)[0x55fce0674e68]
+[san-gnu:12545] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f21d8cfebf7]
+[san-gnu:12545] [ 3] ./secuencialMPI(+0xb2a)[0x55fce0674b2a]
+[san-gnu:12545] *** End of error message ***
+[san-gnu:12548] Signal: Segmentation fault (11)
+[san-gnu:12548] Signal code: Address not mapped (1)
+[san-gnu:12548] Failing at address: (nil)
+[san-gnu:12548] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1da6a0c040]
+[san-gnu:12548] [ 1] ./secuencialMPI(+0xe68)[0x55d9dc3cce68]
+[san-gnu:12548] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1da69eebf7]
+[san-gnu:12548] [ 3] ./secuencialMPI(+0xb2a)[0x55d9dc3ccb2a]
+[san-gnu:12548] *** End of error message ***
+[san-gnu:12546] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f89e78f4040]
+[san-gnu:12546] [ 1] ./secuencialMPI(+0xe68)[0x55eb07d56e68]
+[san-gnu:12546] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f89e78d6bf7]
+[san-gnu:12546] [ 3] ./secuencialMPI(+0xb2a)[0x55eb07d56b2a]
+[san-gnu:12546] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12567] *** Process received signal ***
+[san-gnu:12567] Signal: Segmentation fault (11)
+[san-gnu:12567] Signal code:  (128)
+[san-gnu:12567] Failing at address: (nil)
+[san-gnu:12567] *** Process received signal ***
+[san-gnu:12567] Signal: Aborted (6)
+[san-gnu:12567] Signal code:  (-6)
+[san-gnu:12569] *** Process received signal ***
+[san-gnu:12569] Signal: Segmentation fault (11)
+[san-gnu:12569] Signal code:  (128)
+[san-gnu:12569] Failing at address: (nil)
+[san-gnu:12569] *** Process received signal ***
+[san-gnu:12569] Signal: Aborted (6)
+[san-gnu:12569] Signal code:  (-6)
+[san-gnu:12566] *** Process received signal ***
+[san-gnu:12566] Signal: Segmentation fault (11)
+[san-gnu:12566] Signal code:  (128)
+[san-gnu:12566] Failing at address: (nil)
+[san-gnu:12566] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f82b2b64040]
+[san-gnu:12566] [ 1] ./secuencialMPI(+0xe68)[0x562b02112e68]
+[san-gnu:12566] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f82b2b46bf7]
+[san-gnu:12568] *** Process received signal ***
+[san-gnu:12568] Signal: Segmentation fault (11)
+[san-gnu:12568] Signal code:  (128)
+[san-gnu:12568] Failing at address: (nil)
+[san-gnu:12568] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fb7917c0040]
+[san-gnu:12568] [ 1] ./secuencialMPI(+0xe68)[0x55c46cce0e68]
+[san-gnu:12568] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb7917a2bf7]
+[san-gnu:12568] [ 3] ./secuencialMPI(+0xb2a)[0x55c46cce0b2a]
+[san-gnu:12568] *** End of error message ***
+[san-gnu:12566] [ 3] ./secuencialMPI(+0xb2a)[0x562b02112b2a]
+[san-gnu:12566] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12600] *** Process received signal ***
+[san-gnu:12600] Signal: Segmentation fault (11)
+[san-gnu:12600] Signal code:  (128)
+[san-gnu:12600] Failing at address: (nil)
+[san-gnu:12601] *** Process received signal ***
+[san-gnu:12602] *** Process received signal ***
+[san-gnu:12602] Signal: Segmentation fault (11)
+[san-gnu:12602] Signal code:  (128)
+[san-gnu:12602] Failing at address: (nil)
+[san-gnu:12603] *** Process received signal ***
+[san-gnu:12603] Signal: Segmentation fault (11)
+[san-gnu:12603] Signal code:  (128)
+[san-gnu:12603] Failing at address: (nil)
+[san-gnu:12600] [ 0] [san-gnu:12603] *** Process received signal ***
+[san-gnu:12603] Signal: Aborted (6)
+[san-gnu:12603] Signal code:  (-6)
+[san-gnu:12602] *** Process received signal ***
+[san-gnu:12602] Signal: Aborted (6)
+[san-gnu:12602] Signal code:  (-6)
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f4a2023a040]
+[san-gnu:12600] [ 1] ./secuencialMPI(+0xe68)[0x556a54199e68]
+[san-gnu:12600] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4a2021cbf7]
+[san-gnu:12600] [ 3] ./secuencialMPI(+0xb2a)[0x556a54199b2a]
+[san-gnu:12600] *** End of error message ***
+[san-gnu:12601] Signal: Segmentation fault (11)
+[san-gnu:12601] Signal code:  (128)
+[san-gnu:12601] Failing at address: (nil)
+[san-gnu:12601] *** Process received signal ***
+[san-gnu:12601] Signal: Aborted (6)
+[san-gnu:12601] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12628] *** Process received signal ***
+[san-gnu:12628] Signal: Segmentation fault (11)
+[san-gnu:12628] Signal code: Address not mapped (1)
+[san-gnu:12628] Failing at address: (nil)
+[san-gnu:12630] *** Process received signal ***
+[san-gnu:12630] Signal: Segmentation fault (11)
+[san-gnu:12630] Signal code: Address not mapped (1)
+[san-gnu:12630] Failing at address: (nil)
+[san-gnu:12631] *** Process received signal ***
+[san-gnu:12631] Signal: Segmentation fault (11)
+[san-gnu:12631] Signal code: Address not mapped (1)
+[san-gnu:12631] Failing at address: (nil)
+[san-gnu:12628] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f35909d7040]
+[san-gnu:12628] [ 1] ./secuencialMPI(+0xe68)[0x563f17439e68]
+[san-gnu:12628] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f35909b9bf7]
+[san-gnu:12628] [ 3] ./secuencialMPI(+0xb2a)[0x563f17439b2a]
+[san-gnu:12628] *** End of error message ***
+[san-gnu:12631] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1d88511040]
+[san-gnu:12631] [ 1] ./secuencialMPI(+0xe68)[0x563bd6d5fe68]
+[san-gnu:12631] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1d884f3bf7]
+[san-gnu:12631] [ 3] ./secuencialMPI(+0xb2a)[0x563bd6d5fb2a]
+[san-gnu:12631] *** End of error message ***
+[san-gnu:12629] *** Process received signal ***
+[san-gnu:12629] Signal: Segmentation fault (11)
+[san-gnu:12629] Signal code: Address not mapped (1)
+[san-gnu:12629] Failing at address: (nil)
+[san-gnu:12629] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa28ef44040]
+[san-gnu:12629] [ 1] ./secuencialMPI(+0xe68)[0x55a9034b6e68]
+[san-gnu:12629] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa28ef26bf7]
+[san-gnu:12629] [ 3] ./secuencialMPI(+0xb2a)[0x55a9034b6b2a]
+[san-gnu:12629] *** End of error message ***
+[san-gnu:12630] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe49d9a3040]
+[san-gnu:12630] [ 1] ./secuencialMPI(+0xe68)[0x55fe8864de68]
+[san-gnu:12630] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe49d985bf7]
+[san-gnu:12630] [ 3] ./secuencialMPI(+0xb2a)[0x55fe8864db2a]
+[san-gnu:12630] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12649] *** Process received signal ***
+[san-gnu:12649] Signal: Segmentation fault (11)
+[san-gnu:12649] Signal code:  (128)
+[san-gnu:12649] Failing at address: (nil)
+[san-gnu:12650] *** Process received signal ***
+[san-gnu:12650] Signal: Segmentation fault (11)
+[san-gnu:12650] Signal code:  (128)
+[san-gnu:12650] Failing at address: (nil)
+[san-gnu:12651] *** Process received signal ***
+[san-gnu:12651] Signal: Segmentation fault (11)
+[san-gnu:12651] Signal code:  (128)
+[san-gnu:12651] Failing at address: (nil)
+[san-gnu:12652] *** Process received signal ***
+[san-gnu:12649] [san-gnu:12650] *** Process received signal ***
+[san-gnu:12650] Signal: Aborted (6)
+[san-gnu:12650] Signal code:  (-6)
+[san-gnu:12651] *** Process received signal ***
+[san-gnu:12651] Signal: Aborted (6)
+[san-gnu:12651] Signal code:  (-6)
+[san-gnu:12652] Signal: Segmentation fault (11)
+[san-gnu:12652] Signal code:  (128)
+[san-gnu:12652] Failing at address: (nil)
+[san-gnu:12652] *** Process received signal ***
+[san-gnu:12652] Signal: Aborted (6)
+[san-gnu:12652] Signal code:  (-6)
+[ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f1a2e082040]
+[san-gnu:12649] [ 1] ./secuencialMPI(+0xe68)[0x5634ee5b6e68]
+[san-gnu:12649] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1a2e064bf7]
+[san-gnu:12649] [ 3] ./secuencialMPI(+0xb2a)[0x5634ee5b6b2a]
+[san-gnu:12649] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12670] *** Process received signal ***
+[san-gnu:12670] Signal: Segmentation fault (11)
+[san-gnu:12670] Signal code:  (128)
+[san-gnu:12670] Failing at address: (nil)
+[san-gnu:12672] *** Process received signal ***
+[san-gnu:12672] Signal: Segmentation fault (11)
+[san-gnu:12672] Signal code:  (128)
+[san-gnu:12672] Failing at address: (nil)
+[san-gnu:12673] *** Process received signal ***
+[san-gnu:12673] Signal: Segmentation fault (11)
+[san-gnu:12673] Signal code:  (128)
+[san-gnu:12673] Failing at address: (nil)
+[san-gnu:12671] *** Process received signal ***
+[san-gnu:12671] Signal: Segmentation fault (11)
+[san-gnu:12671] Signal code:  (128)
+[san-gnu:12671] Failing at address: (nil)
+[san-gnu:12671] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f709948f040]
+[san-gnu:12671] [ 1] ./secuencialMPI(+0xe68)[0x55ef23bd9e68]
+[san-gnu:12671] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7099471bf7]
+[san-gnu:12671] [ 3] ./secuencialMPI(+0xb2a)[0x55ef23bd9b2a]
+[san-gnu:12671] *** End of error message ***
+[san-gnu:12670] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff05fe33040]
+[san-gnu:12670] [ 1] ./secuencialMPI(+0xe68)[0x56319be82e68]
+[san-gnu:12670] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff05fe15bf7]
+[san-gnu:12670] [ 3] ./secuencialMPI(+0xb2a)[0x56319be82b2a]
+[san-gnu:12670] *** End of error message ***
+[san-gnu:12673] *** Process received signal ***
+[san-gnu:12673] Signal: Aborted (6)
+[san-gnu:12673] Signal code:  (-6)
+[san-gnu:12672] *** Process received signal ***
+[san-gnu:12672] Signal: Aborted (6)
+[san-gnu:12672] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12689] *** Process received signal ***
+[san-gnu:12689] Signal: Segmentation fault (11)
+[san-gnu:12689] Signal code: Address not mapped (1)
+[san-gnu:12689] Failing at address: (nil)
+[san-gnu:12690] *** Process received signal ***
+[san-gnu:12691] *** Process received signal ***
+[san-gnu:12691] Signal: Segmentation fault (11)
+[san-gnu:12691] Signal code: Address not mapped (1)
+[san-gnu:12691] Failing at address: (nil)
+[san-gnu:12692] *** Process received signal ***
+[san-gnu:12692] Signal: Segmentation fault (11)
+[san-gnu:12692] Signal code: Address not mapped (1)
+[san-gnu:12692] Failing at address: (nil)
+[san-gnu:12689] [ 0] [san-gnu:12691] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040[san-gnu:12692] [ 0] )[0x7fb5f4b1e040]
+[san-gnu:12691] [ 1] ./secuencialMPI(+0xe68)[0x55624cc37e68]
+[san-gnu:12691] [ 2] /lib/x86_64-linux-gnu/libc.so.6(/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb5f4b00bf7]
+[san-gnu:12691] [ 3] ./secuencialMPI(+0xb2a)[0x55624cc37b2a]
+[san-gnu:12691] *** End of error message ***
+[san-gnu:12690] Signal: Segmentation fault (11)
+[san-gnu:12690] Signal code: Address not mapped (1)
+[san-gnu:12690] Failing at address: (nil)
++0x[san-gnu:12690] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f104e670040]
+[san-gnu:12690] [ 1] ./secuencialMPI(+0xe68)[0x55c03785ee68]
+[san-gnu:12690] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f104e652bf7]
+[san-gnu:12690] [ 3] ./secuencialMPI(+0xb2a)[0x55c03785eb2a]
+[san-gnu:12690] *** End of error message ***
+3f040)[0x7f8363298040]
+[san-gnu:12692] [ 1] ./secuencialMPI(+0xe68)[0x55f34041de68]
+[san-gnu:12692] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f836327abf7]
+[san-gnu:12692] [ 3] ./secuencialMPI(+0xb2a)[0x55f34041db2a]
+[san-gnu:12692] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3790f1d040]
+[san-gnu:12689] [ 1] ./secuencialMPI(+0xe68)[0x55e18bdefe68]
+[san-gnu:12689] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3790effbf7]
+[san-gnu:12689] [ 3] ./secuencialMPI(+0xb2a)[0x55e18bdefb2a]
+[san-gnu:12689] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12726] *** Process received signal ***
+[san-gnu:12726] Signal: Segmentation fault (11)
+[san-gnu:12726] Signal code:  (128)
+[san-gnu:12726] Failing at address: (nil)
+[san-gnu:12727] *** Process received signal ***
+[san-gnu:12727] Signal: Segmentation fault (11)
+[san-gnu:12727] Signal code:  (128)
+[san-gnu:12727] Failing at address: (nil)
+[san-gnu:12728] *** Process received signal ***
+[san-gnu:12728] Signal: Segmentation fault (11)
+[san-gnu:12728] Signal code:  (128)
+[san-gnu:12728] Failing at address: (nil)
+[san-gnu:12726] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd3beaf2040]
+[san-gnu:12726] [ 1] ./secuencialMPI(+0xe68)[0x55e752afde68]
+[san-gnu:12726] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd3bead4bf7]
+[san-gnu:12726] [ 3] ./secuencialMPI(+0xb2a)[0x55e752afdb2a]
+[san-gnu:12726] *** End of error message ***
+[san-gnu:12728] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fc345a07040]
+[san-gnu:12728] [ 1] ./secuencialMPI(+0xe68)[0x5559cc818e68]
+[san-gnu:12728] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fc3459e9bf7]
+[san-gnu:12728] [ 3] ./secuencialMPI(+0xb2a)[0x5559cc818b2a]
+[san-gnu:12728] *** End of error message ***
+[san-gnu:12727] *** Process received signal ***
+[san-gnu:12727] Signal: Aborted (6)
+[san-gnu:12727] Signal code:  (-6)
+[san-gnu:12725] *** Process received signal ***
+[san-gnu:12725] Signal: Segmentation fault (11)
+[san-gnu:12725] Signal code:  (128)
+[san-gnu:12725] Failing at address: (nil)
+[san-gnu:12725] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3af5c91040]
+[san-gnu:12725] [ 1] ./secuencialMPI(+0xe68)[0x55b72d43ae68]
+[san-gnu:12725] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3af5c73bf7]
+[san-gnu:12725] [ 3] ./secuencialMPI(+0xb2a)[0x55b72d43ab2a]
+[san-gnu:12725] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12755] *** Process received signal ***
+[san-gnu:12755] Signal: Segmentation fault (11)
+[san-gnu:12755] Signal code:  (128)
+[san-gnu:12755] Failing at address: (nil)
+[san-gnu:12756] *** Process received signal ***
+[san-gnu:12757] *** Process received signal ***
+[san-gnu:12757] Signal: Segmentation fault (11)
+[san-gnu:12757] Signal code:  (128)
+[san-gnu:12757] Failing at address: (nil)
+[san-gnu:12758] *** Process received signal ***
+[san-gnu:12758] Signal: Segmentation fault (11)
+[san-gnu:12758] Signal code:  (128)
+[san-gnu:12758] Failing at address: (nil)
+[san-gnu:12755] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f08e315a040]
+[san-gnu:12755] [ 1] ./secuencialMPI(+0xe68)[0x56463c61de68]
+[san-gnu:12755] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f08e313cbf7]
+[san-gnu:12755] [ 3] ./secuencialMPI(+0xb2a)[0x56463c61db2a]
+[san-gnu:12755] *** End of error message ***
+[san-gnu:12756] Signal: Segmentation fault (11)
+[san-gnu:12756] Signal code:  (128)
+[san-gnu:12756] Failing at address: (nil)
+[san-gnu:12756] *** Process received signal ***
+[san-gnu:12756] Signal: Aborted (6)
+[san-gnu:12756] Signal code:  (-6)
+[san-gnu:12758] *** Process received signal ***
+[san-gnu:12758] Signal: Aborted (6)
+[san-gnu:12758] Signal code:  (-6)
+[san-gnu:12757] *** Process received signal ***
+[san-gnu:12757] Signal: Aborted (6)
+[san-gnu:12757] Signal code:  (-6)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node san-gnu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[san-gnu:12810] *** Process received signal ***
+[san-gnu:12810] Signal: Segmentation fault (11)
+[san-gnu:12810] Signal code: Address not mapped (1)
+[san-gnu:12810] Failing at address: (nil)
+[san-gnu:12810] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fca1263b040]
+[san-gnu:12810] [ 1] ./secuencialMPI(+0x11e0)[0x55c9fafe31e0]
+[san-gnu:12810] [ 2] ./secuencialMPI(+0xf04)[0x55c9fafe2f04]
+[san-gnu:12810] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fca1261dbf7]
+[san-gnu:12810] [ 4] ./secuencialMPI(+0xb2a)[0x55c9fafe2b2a]
+[san-gnu:12810] *** End of error message ***
+[san-gnu:12819] *** Process received signal ***
+[san-gnu:12819] Signal: Segmentation fault (11)
+[san-gnu:12819] Signal code: Address not mapped (1)
+[san-gnu:12819] Failing at address: (nil)
+[san-gnu:12819] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3df2d99040]
+[san-gnu:12819] [ 1] ./secuencialMPI(+0x11e0)[0x55788419f1e0]
+[san-gnu:12819] [ 2] ./secuencialMPI(+0xf04)[0x55788419ef04]
+[san-gnu:12819] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3df2d7bbf7]
+[san-gnu:12819] [ 4] ./secuencialMPI(+0xb2a)[0x55788419eb2a]
+[san-gnu:12819] *** End of error message ***
+[san-gnu:12832] *** Process received signal ***
+[san-gnu:12832] Signal: Segmentation fault (11)
+[san-gnu:12832] Signal code: Address not mapped (1)
+[san-gnu:12832] Failing at address: (nil)
+[san-gnu:12832] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7efe64c65040]
+[san-gnu:12832] [ 1] ./secuencialMPI(+0x11e0)[0x55604f9ec1e0]
+[san-gnu:12832] [ 2] ./secuencialMPI(+0xf04)[0x55604f9ebf04]
+[san-gnu:12832] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7efe64c47bf7]
+[san-gnu:12832] [ 4] ./secuencialMPI(+0xb2a)[0x55604f9ebb2a]
+[san-gnu:12832] *** End of error message ***
+[san-gnu:12847] *** Process received signal ***
+[san-gnu:12847] Signal: Segmentation fault (11)
+[san-gnu:12847] Signal code: Address not mapped (1)
+[san-gnu:12847] Failing at address: (nil)
+[san-gnu:12847] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fcca90cd040]
+[san-gnu:12847] [ 1] ./secuencialMPI(+0x11e0)[0x55b2dd1c41e0]
+[san-gnu:12847] [ 2] ./secuencialMPI(+0xf04)[0x55b2dd1c3f04]
+[san-gnu:12847] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fcca90afbf7]
+[san-gnu:12847] [ 4] ./secuencialMPI(+0xb2a)[0x55b2dd1c3b2a]
+[san-gnu:12847] *** End of error message ***
+[san-gnu:12856] *** Process received signal ***
+[san-gnu:12856] Signal: Segmentation fault (11)
+[san-gnu:12856] Signal code: Address not mapped (1)
+[san-gnu:12856] Failing at address: (nil)
+[san-gnu:12856] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd234ea7040]
+[san-gnu:12856] [ 1] ./secuencialMPI(+0x11e0)[0x55d44f94c1e0]
+[san-gnu:12856] [ 2] ./secuencialMPI(+0xf04)[0x55d44f94bf04]
+[san-gnu:12856] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd234e89bf7]
+[san-gnu:12856] [ 4] ./secuencialMPI(+0xb2a)[0x55d44f94bb2a]
+[san-gnu:12856] *** End of error message ***
+[san-gnu:12870] *** Process received signal ***
+[san-gnu:12870] Signal: Segmentation fault (11)
+[san-gnu:12870] Signal code: Address not mapped (1)
+[san-gnu:12870] Failing at address: (nil)
+[san-gnu:12870] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd3a4c95040]
+[san-gnu:12870] [ 1] ./secuencialMPI(+0x11e0)[0x55d3967bd1e0]
+[san-gnu:12870] [ 2] ./secuencialMPI(+0xf04)[0x55d3967bcf04]
+[san-gnu:12870] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd3a4c77bf7]
+[san-gnu:12870] [ 4] ./secuencialMPI(+0xb2a)[0x55d3967bcb2a]
+[san-gnu:12870] *** End of error message ***
+[san-gnu:12879] *** Process received signal ***
+[san-gnu:12879] Signal: Segmentation fault (11)
+[san-gnu:12879] Signal code: Address not mapped (1)
+[san-gnu:12879] Failing at address: (nil)
+[san-gnu:12879] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3b8ae79040]
+[san-gnu:12879] [ 1] ./secuencialMPI(+0x11e0)[0x55a710b061e0]
+[san-gnu:12879] [ 2] ./secuencialMPI(+0xf04)[0x55a710b05f04]
+[san-gnu:12879] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3b8ae5bbf7]
+[san-gnu:12879] [ 4] ./secuencialMPI(+0xb2a)[0x55a710b05b2a]
+[san-gnu:12879] *** End of error message ***
+[san-gnu:12888] *** Process received signal ***
+[san-gnu:12888] Signal: Segmentation fault (11)
+[san-gnu:12888] Signal code: Address not mapped (1)
+[san-gnu:12888] Failing at address: (nil)
+[san-gnu:12888] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f36dec59040]
+[san-gnu:12888] [ 1] ./secuencialMPI(+0x11e0)[0x558f849f81e0]
+[san-gnu:12888] [ 2] ./secuencialMPI(+0xf04)[0x558f849f7f04]
+[san-gnu:12888] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f36dec3bbf7]
+[san-gnu:12888] [ 4] ./secuencialMPI(+0xb2a)[0x558f849f7b2a]
+[san-gnu:12888] *** End of error message ***
+[san-gnu:12897] *** Process received signal ***
+[san-gnu:12897] Signal: Segmentation fault (11)
+[san-gnu:12897] Signal code: Address not mapped (1)
+[san-gnu:12897] Failing at address: (nil)
+[san-gnu:12897] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f314f169040]
+[san-gnu:12897] [ 1] ./secuencialMPI(+0x11e0)[0x55ef2c4471e0]
+[san-gnu:12897] [ 2] ./secuencialMPI(+0xf04)[0x55ef2c446f04]
+[san-gnu:12897] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f314f14bbf7]
+[san-gnu:12897] [ 4] ./secuencialMPI(+0xb2a)[0x55ef2c446b2a]
+[san-gnu:12897] *** End of error message ***
+[san-gnu:12906] *** Process received signal ***
+[san-gnu:12906] Signal: Segmentation fault (11)
+[san-gnu:12906] Signal code: Address not mapped (1)
+[san-gnu:12906] Failing at address: (nil)
+[san-gnu:12906] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f933d08a040]
+[san-gnu:12906] [ 1] ./secuencialMPI(+0x11e0)[0x56516e8861e0]
+[san-gnu:12906] [ 2] ./secuencialMPI(+0xf04)[0x56516e885f04]
+[san-gnu:12906] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f933d06cbf7]
+[san-gnu:12906] [ 4] ./secuencialMPI(+0xb2a)[0x56516e885b2a]
+[san-gnu:12906] *** End of error message ***
+[san-gnu:12915] *** Process received signal ***
+[san-gnu:12915] Signal: Segmentation fault (11)
+[san-gnu:12915] Signal code: Address not mapped (1)
+[san-gnu:12915] Failing at address: (nil)
+[san-gnu:12915] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f191b83f040]
+[san-gnu:12915] [ 1] ./secuencialMPI(+0x11e0)[0x5647dd7ee1e0]
+[san-gnu:12915] [ 2] ./secuencialMPI(+0xf04)[0x5647dd7edf04]
+[san-gnu:12915] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f191b821bf7]
+[san-gnu:12915] [ 4] ./secuencialMPI(+0xb2a)[0x5647dd7edb2a]
+[san-gnu:12915] *** End of error message ***
+[san-gnu:12936] *** Process received signal ***
+[san-gnu:12936] Signal: Segmentation fault (11)
+[san-gnu:12936] Signal code: Address not mapped (1)
+[san-gnu:12936] Failing at address: (nil)
+[san-gnu:12936] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f3ce5e06040]
+[san-gnu:12936] [ 1] ./secuencialMPI(+0x11e0)[0x55a6381eb1e0]
+[san-gnu:12936] [ 2] ./secuencialMPI(+0xf04)[0x55a6381eaf04]
+[san-gnu:12936] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f3ce5de8bf7]
+[san-gnu:12936] [ 4] ./secuencialMPI(+0xb2a)[0x55a6381eab2a]
+[san-gnu:12936] *** End of error message ***
+[san-gnu:12945] *** Process received signal ***
+[san-gnu:12945] Signal: Segmentation fault (11)
+[san-gnu:12945] Signal code: Address not mapped (1)
+[san-gnu:12945] Failing at address: (nil)
+[san-gnu:12945] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f46e6cb2040]
+[san-gnu:12945] [ 1] ./secuencialMPI(+0x11e0)[0x55ed8c74b1e0]
+[san-gnu:12945] [ 2] ./secuencialMPI(+0xf04)[0x55ed8c74af04]
+[san-gnu:12945] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f46e6c94bf7]
+[san-gnu:12945] [ 4] ./secuencialMPI(+0xb2a)[0x55ed8c74ab2a]
+[san-gnu:12945] *** End of error message ***
+[san-gnu:12961] *** Process received signal ***
+[san-gnu:12961] Signal: Segmentation fault (11)
+[san-gnu:12961] Signal code: Address not mapped (1)
+[san-gnu:12961] Failing at address: (nil)
+[san-gnu:12961] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f38d01a5040]
+[san-gnu:12961] [ 1] ./secuencialMPI(+0x11e0)[0x559e644f91e0]
+[san-gnu:12961] [ 2] ./secuencialMPI(+0xf04)[0x559e644f8f04]
+[san-gnu:12961] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f38d0187bf7]
+[san-gnu:12961] [ 4] ./secuencialMPI(+0xb2a)[0x559e644f8b2a]
+[san-gnu:12961] *** End of error message ***
+[san-gnu:12970] *** Process received signal ***
+[san-gnu:12970] Signal: Segmentation fault (11)
+[san-gnu:12970] Signal code: Address not mapped (1)
+[san-gnu:12970] Failing at address: (nil)
+[san-gnu:12970] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff6144ba040]
+[san-gnu:12970] [ 1] ./secuencialMPI(+0x11e0)[0x55d12df581e0]
+[san-gnu:12970] [ 2] ./secuencialMPI(+0xf04)[0x55d12df57f04]
+[san-gnu:12970] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff61449cbf7]
+[san-gnu:12970] [ 4] ./secuencialMPI(+0xb2a)[0x55d12df57b2a]
+[san-gnu:12970] *** End of error message ***
+[san-gnu:12981] *** Process received signal ***
+[san-gnu:12981] Signal: Segmentation fault (11)
+[san-gnu:12981] Signal code: Address not mapped (1)
+[san-gnu:12981] Failing at address: (nil)
+[san-gnu:12981] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa567821040]
+[san-gnu:12981] [ 1] ./secuencialMPI(+0x11e0)[0x560c5279f1e0]
+[san-gnu:12981] [ 2] ./secuencialMPI(+0xf04)[0x560c5279ef04]
+[san-gnu:12981] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa567803bf7]
+[san-gnu:12981] [ 4] ./secuencialMPI(+0xb2a)[0x560c5279eb2a]
+[san-gnu:12981] *** End of error message ***
+[san-gnu:12990] *** Process received signal ***
+[san-gnu:12990] Signal: Segmentation fault (11)
+[san-gnu:12990] Signal code: Address not mapped (1)
+[san-gnu:12990] Failing at address: (nil)
+[san-gnu:12990] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7facfeab8040]
+[san-gnu:12990] [ 1] ./secuencialMPI(+0x11e0)[0x560acc2321e0]
+[san-gnu:12990] [ 2] ./secuencialMPI(+0xf04)[0x560acc231f04]
+[san-gnu:12990] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7facfea9abf7]
+[san-gnu:12990] [ 4] ./secuencialMPI(+0xb2a)[0x560acc231b2a]
+[san-gnu:12990] *** End of error message ***
+[san-gnu:12999] *** Process received signal ***
+[san-gnu:12999] Signal: Segmentation fault (11)
+[san-gnu:12999] Signal code: Address not mapped (1)
+[san-gnu:12999] Failing at address: (nil)
+[san-gnu:12999] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f197161f040]
+[san-gnu:12999] [ 1] ./secuencialMPI(+0x11e0)[0x559526e3d1e0]
+[san-gnu:12999] [ 2] ./secuencialMPI(+0xf04)[0x559526e3cf04]
+[san-gnu:12999] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1971601bf7]
+[san-gnu:12999] [ 4] ./secuencialMPI(+0xb2a)[0x559526e3cb2a]
+[san-gnu:12999] *** End of error message ***
+[san-gnu:13008] *** Process received signal ***
+[san-gnu:13008] Signal: Segmentation fault (11)
+[san-gnu:13008] Signal code: Address not mapped (1)
+[san-gnu:13008] Failing at address: (nil)
+[san-gnu:13008] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f9f9dc79040]
+[san-gnu:13008] [ 1] ./secuencialMPI(+0x11e0)[0x5575225fb1e0]
+[san-gnu:13008] [ 2] ./secuencialMPI(+0xf04)[0x5575225faf04]
+[san-gnu:13008] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9f9dc5bbf7]
+[san-gnu:13008] [ 4] ./secuencialMPI(+0xb2a)[0x5575225fab2a]
+[san-gnu:13008] *** End of error message ***
+[san-gnu:13017] *** Process received signal ***
+[san-gnu:13017] Signal: Segmentation fault (11)
+[san-gnu:13017] Signal code: Address not mapped (1)
+[san-gnu:13017] Failing at address: (nil)
+[san-gnu:13017] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f4424094040]
+[san-gnu:13017] [ 1] ./secuencialMPI(+0x11e0)[0x5616d0c441e0]
+[san-gnu:13017] [ 2] ./secuencialMPI(+0xf04)[0x5616d0c43f04]
+[san-gnu:13017] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4424076bf7]
+[san-gnu:13017] [ 4] ./secuencialMPI(+0xb2a)[0x5616d0c43b2a]
+[san-gnu:13017] *** End of error message ***
+[san-gnu:13026] *** Process received signal ***
+[san-gnu:13026] Signal: Segmentation fault (11)
+[san-gnu:13026] Signal code: Address not mapped (1)
+[san-gnu:13026] Failing at address: (nil)
+[san-gnu:13026] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7ff4bcb84040]
+[san-gnu:13026] [ 1] ./secuencialMPI(+0x11e0)[0x55e82cf671e0]
+[san-gnu:13026] [ 2] ./secuencialMPI(+0xf04)[0x55e82cf66f04]
+[san-gnu:13026] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff4bcb66bf7]
+[san-gnu:13026] [ 4] ./secuencialMPI(+0xb2a)[0x55e82cf66b2a]
+[san-gnu:13026] *** End of error message ***
+[san-gnu:13047] *** Process received signal ***
+[san-gnu:13047] Signal: Segmentation fault (11)
+[san-gnu:13047] Signal code: Address not mapped (1)
+[san-gnu:13047] Failing at address: (nil)
+[san-gnu:13047] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa9aeeb7040]
+[san-gnu:13047] [ 1] ./secuencialMPI(+0x11e0)[0x562e1ea011e0]
+[san-gnu:13047] [ 2] ./secuencialMPI(+0xf04)[0x562e1ea00f04]
+[san-gnu:13047] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa9aee99bf7]
+[san-gnu:13047] [ 4] ./secuencialMPI(+0xb2a)[0x562e1ea00b2a]
+[san-gnu:13047] *** End of error message ***
+[san-gnu:13056] *** Process received signal ***
+[san-gnu:13056] Signal: Segmentation fault (11)
+[san-gnu:13056] Signal code: Address not mapped (1)
+[san-gnu:13056] Failing at address: (nil)
+[san-gnu:13056] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fa59e09a040]
+[san-gnu:13056] [ 1] ./secuencialMPI(+0x11e0)[0x55bd00d281e0]
+[san-gnu:13056] [ 2] ./secuencialMPI(+0xf04)[0x55bd00d27f04]
+[san-gnu:13056] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa59e07cbf7]
+[san-gnu:13056] [ 4] ./secuencialMPI(+0xb2a)[0x55bd00d27b2a]
+[san-gnu:13056] *** End of error message ***
+[san-gnu:13072] *** Process received signal ***
+[san-gnu:13072] Signal: Segmentation fault (11)
+[san-gnu:13072] Signal code: Address not mapped (1)
+[san-gnu:13072] Failing at address: (nil)
+[san-gnu:13072] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f45fb671040]
+[san-gnu:13072] [ 1] ./secuencialMPI(+0x11e0)[0x563abbe021e0]
+[san-gnu:13072] [ 2] ./secuencialMPI(+0xf04)[0x563abbe01f04]
+[san-gnu:13072] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f45fb653bf7]
+[san-gnu:13072] [ 4] ./secuencialMPI(+0xb2a)[0x563abbe01b2a]
+[san-gnu:13072] *** End of error message ***
+[san-gnu:13081] *** Process received signal ***
+[san-gnu:13081] Signal: Segmentation fault (11)
+[san-gnu:13081] Signal code: Address not mapped (1)
+[san-gnu:13081] Failing at address: (nil)
+[san-gnu:13081] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f0124c6b040]
+[san-gnu:13081] [ 1] ./secuencialMPI(+0x11e0)[0x56124581f1e0]
+[san-gnu:13081] [ 2] ./secuencialMPI(+0xf04)[0x56124581ef04]
+[san-gnu:13081] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f0124c4dbf7]
+[san-gnu:13081] [ 4] ./secuencialMPI(+0xb2a)[0x56124581eb2a]
+[san-gnu:13081] *** End of error message ***
+[san-gnu:13090] *** Process received signal ***
+[san-gnu:13090] Signal: Segmentation fault (11)
+[san-gnu:13090] Signal code: Address not mapped (1)
+[san-gnu:13090] Failing at address: (nil)
+[san-gnu:13090] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fe15ea11040]
+[san-gnu:13090] [ 1] ./secuencialMPI(+0x11e0)[0x560f13beb1e0]
+[san-gnu:13090] [ 2] ./secuencialMPI(+0xf04)[0x560f13beaf04]
+[san-gnu:13090] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe15e9f3bf7]
+[san-gnu:13090] [ 4] ./secuencialMPI(+0xb2a)[0x560f13beab2a]
+[san-gnu:13090] *** End of error message ***
+[san-gnu:13099] *** Process received signal ***
+[san-gnu:13099] Signal: Segmentation fault (11)
+[san-gnu:13099] Signal code: Address not mapped (1)
+[san-gnu:13099] Failing at address: (nil)
+[san-gnu:13099] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f023fd28040]
+[san-gnu:13099] [ 1] ./secuencialMPI(+0x11e0)[0x55774a6c61e0]
+[san-gnu:13099] [ 2] ./secuencialMPI(+0xf04)[0x55774a6c5f04]
+[san-gnu:13099] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f023fd0abf7]
+[san-gnu:13099] [ 4] ./secuencialMPI(+0xb2a)[0x55774a6c5b2a]
+[san-gnu:13099] *** End of error message ***
+[san-gnu:13108] *** Process received signal ***
+[san-gnu:13108] Signal: Segmentation fault (11)
+[san-gnu:13108] Signal code: Address not mapped (1)
+[san-gnu:13108] Failing at address: (nil)
+[san-gnu:13108] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7f5a05914040]
+[san-gnu:13108] [ 1] ./secuencialMPI(+0x11e0)[0x5577ac1cf1e0]
+[san-gnu:13108] [ 2] ./secuencialMPI(+0xf04)[0x5577ac1cef04]
+[san-gnu:13108] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f5a058f6bf7]
+[san-gnu:13108] [ 4] ./secuencialMPI(+0xb2a)[0x5577ac1ceb2a]
+[san-gnu:13108] *** End of error message ***
+[san-gnu:13117] *** Process received signal ***
+[san-gnu:13117] Signal: Segmentation fault (11)
+[san-gnu:13117] Signal code: Address not mapped (1)
+[san-gnu:13117] Failing at address: (nil)
+[san-gnu:13117] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fbd6e9d9040]
+[san-gnu:13117] [ 1] ./secuencialMPI(+0x11e0)[0x56274a23b1e0]
+[san-gnu:13117] [ 2] ./secuencialMPI(+0xf04)[0x56274a23af04]
+[san-gnu:13117] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fbd6e9bbbf7]
+[san-gnu:13117] [ 4] ./secuencialMPI(+0xb2a)[0x56274a23ab2a]
+[san-gnu:13117] *** End of error message ***
+[san-gnu:13126] *** Process received signal ***
+[san-gnu:13126] Signal: Segmentation fault (11)
+[san-gnu:13126] Signal code: Address not mapped (1)
+[san-gnu:13126] Failing at address: (nil)
+[san-gnu:13126] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3f040)[0x7fd677bf4040]
+[san-gnu:13126] [ 1] ./secuencialMPI(+0x11e0)[0x5565415cb1e0]
+[san-gnu:13126] [ 2] ./secuencialMPI(+0xf04)[0x5565415caf04]
+[san-gnu:13126] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd677bd6bf7]
+[san-gnu:13126] [ 4] ./secuencialMPI(+0xb2a)[0x5565415cab2a]
+[san-gnu:13126] *** End of error message ***

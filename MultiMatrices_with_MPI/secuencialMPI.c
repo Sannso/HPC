@@ -3,7 +3,6 @@
 #include <time.h>
 #include <mpi.h>
 
-void calcular_area_circulo(int **result, int n);
 void llenar_matrices(int **matrix1, int **matrix2, int n);
 void memory_storage(int **matrix1, int **matrix2, int **result, int n);
 void release_memory(int **matrix1, int **matrix2, int **result, int n);
@@ -74,11 +73,6 @@ int main(int argc, char *argv[]) {
     }
     MPI_Gather(local_result[0], local_n * n, MPI_INT, result[0], local_n * n, MPI_INT, 0, MPI_COMM_WORLD);
 
-    // Imprimir la matriz resultado en el proceso raíz
-    if (rank == 0 && impr > 0) {
-        calcular_area_circulo(result, n);
-    }
-
     // Liberar memoria local
     release_memory(local_matrix1, local_matrix2, local_result, local_n);
 
@@ -98,3 +92,55 @@ int main(int argc, char *argv[]) {
     MPI_Finalize();
     return 0;
 }
+
+
+
+//------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+void llenar_matrices(int **matrix1, int **matrix2, int n){
+    int i, j;
+    
+    // Llenar la matriz con valores aleatorios
+    srand(time(NULL)); // Inicializar la semilla para generar valores aleatorios
+    for (i = 0; i < n; i++) {
+        for (j = 0; j < n; j++) {
+            matrix1[i][j] = rand() % 100;
+            matrix2[i][j] = rand() % 100; 
+        }
+    }
+}
+
+
+void memory_storage(int **matrix1, int **matrix2, int **result,int n){
+    int i;
+    for (i = 0; i < n; i++) {
+        matrix1[i] = (int *) malloc(n * sizeof(int));
+        matrix2[i] = (int *) malloc(n * sizeof(int));
+        result[i] = (int *) malloc(n * sizeof(int));
+    }
+}
+
+void release_memory(int **matrix1, int **matrix2, int **result, int n){
+    int i;
+    for (i = 0; i < n; i++) {
+        free(matrix1[i]);
+    }
+    free(matrix1);
+    
+    for (i = 0; i < n; i++) {
+        free(matrix2[i]);
+    }
+    free(matrix2);
+    
+    for (i = 0; i < n; i++) {
+        free(result[i]);
+    }
+    free(result);
+}
+
+
