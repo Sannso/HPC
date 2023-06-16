@@ -1,8 +1,8 @@
 #! /bin/bash
 for j in {1..10}
 do
-    for i in 10 12 13
+    for i in 10 100 200 400 600 800 1000 2000
     do
-        ./secuencialMPI $i 0 >> timesSecuencial.doc
+        mpirun -np 4 ./secuencialMPI $i 0 >> timesSecuencial.doc
     done
 done

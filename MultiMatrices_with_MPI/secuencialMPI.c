@@ -37,18 +37,18 @@ int main(int argc, char *argv[]) {
     int **local_matrix2 = NULL;
     int **local_result = NULL;
 
-    memory_storage(&local_matrix1, local_n);
-    memory_storage(&local_matrix2, local_n);
-    memory_storage(&local_result, local_n);
+    memory_storage(&local_matrix1, local_n * n);
+    memory_storage(&local_matrix2, local_n * n);
+    memory_storage(&local_result, local_n * n);
 
     // Llenar matrices en cada proceso
-    llenar_matrices(local_matrix1, local_matrix2, local_n);
+    llenar_matrices(local_matrix1, local_matrix2, local_n * n);
 
     // Realizar la multiplicación local de las matrices
     for (i = 0; i < local_n; i++) {
         for (j = 0; j < n; j++) {
             for (k = 0; k < n; k++) {
-                local_result[i][j] += local_matrix1[i][k] * local_matrix2[k][j];
+                local_result[i*n][j] += local_matrix1[i*n][k] * local_matrix2[k][j];
             }
         }
     }
